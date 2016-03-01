@@ -2,7 +2,7 @@
 title: "Robot Devastation"
 bg: asrob2
 color: white
-fa-icon: plug
+fa-icon: gamepad
 ---
 
 #### ¿Alguien ha dicho... combates de robots?
