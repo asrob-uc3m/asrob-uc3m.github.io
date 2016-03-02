@@ -1,6 +1,6 @@
 ---
 title: "Robot Devastation"
-bg: asrob2
+bg: black
 color: white
 fa-icon: gamepad
 ---

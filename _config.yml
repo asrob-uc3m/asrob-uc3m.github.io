@@ -26,7 +26,7 @@ permalink : /:year
 
 ### template colors, used site-wide via css ###
 colors:
-  black:     '#111111'
+  black:     '#454545' #111111
   white:     '#f8f8f8'
   blue:      '#49a7e9'
   green:     '#9bcf2f'
@@ -35,6 +35,8 @@ colors:
   turquoise: '#0fbfcf'
   asrob1:    '#f8f8f8'
   asrob2:    '#c869bf'
+  red:       '#891717'
+  gray:      '#cccccc'
 
 kramdown:
   auto_ids:  false
