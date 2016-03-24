@@ -41,6 +41,10 @@
           </span>
           <h5 class="icon-title">{{ page.title }}</h5>
         </div>
+        {% elsif page.bff %}
+        <div class="team-member subtlecircle sectiondivider">
+            <img class="img-circle img-responsive" src="img/MYOD.png" alt="">
+        </div>
         {% endif %}
         <div class="container {{ page.style }}">
           {{ page.content }}
