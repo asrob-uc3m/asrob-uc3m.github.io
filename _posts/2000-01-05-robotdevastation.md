@@ -2,7 +2,8 @@
 title: "Robot Devastation"
 bg: black
 color: white
-fa-icon: gamepad
+divider-image: img/RD.png
+link: http://asrob.uc3m.es/index.php/Robot_Devastation
 ---
 
 #### ¿Alguien ha dicho... combates de robots?
@@ -11,5 +12,4 @@ fa-icon: gamepad
 
 ## Combates de robots con Realidad Aumentada
 
-Aquí la gente de Robot Devastation habla de Robot Devastation
-
+Un shooter de nueva generación con realidad aumentada y robots reales. A través de tu smartphone o PC vas a poder jugar online con otros usuarios, manejando robots en campeonatos y campañas: ¡todo 24/7!

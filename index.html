@@ -41,9 +41,9 @@
           </span>
           <h5 class="icon-title">{{ page.title }}</h5>
         </div>
-        {% elsif page.bff %}
-        <div class="team-member subtlecircle sectiondivider">
-            <img class="img-circle img-responsive" src="img/MYOD.png" alt="">
+        {% elsif page.divider-image %}
+        <div class="round-divider-icon subtlecircle sectiondivider">
+            <img class="img-circle img-responsive" src="{{page.divider-image}}" alt="">
         </div>
         {% endif %}
         <div class="container {{ page.style }}">
