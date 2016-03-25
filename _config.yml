@@ -41,3 +41,20 @@ colors:
 kramdown:
   auto_ids:  false
 
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: youtube
+    url: https://www.youtube.com/user/asrobuc3m/
+  - title: twitter
+    url: https://twitter.com/asrob_uc3m
+  - title: facebook
+    url: http://www.facebook.com/pages/Asociacion-de-Robotica-UC3M/170784706272131
+  - title: google-plus 
+    url: https://plus.google.com/117320353227938266035
+  - title: envelope
+    url : mailto:uc3music@gmail.com 
+  - title: github
+    url: http://github.com/asrob-uc3m
+  - title: linkedin
+    url: https://www.linkedin.com/in/asrobuc3m

@@ -12,7 +12,10 @@
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
-	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+
+   <!-- Custom Fonts -->
+   <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+   <link rel="stylesheet" href="{{ "/css/font-rounded-elegance/css/font-rounded-elegance.css" | prepend: site.baseurl }}">
 </head>
 <body>
   <div id="main">
@@ -52,16 +55,18 @@
       </div>
     {% endfor %}
 
-
     <div id="footer" class="section text-white">
       <div class="container">
         {% capture foottext %} {% include footer.md %} {% endcapture %}
-        {{ foottext | markdownify }}
+        {{ foottext | markdownify }} 
       </div>
     </div>
   </div>
 
+
+
 {% include analytics.html %}
+{% include js.html %}
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="site.js"></script>
