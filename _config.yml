@@ -65,6 +65,37 @@ society:
         name: Email
         url: 
 
+more_info:
+  - title: Antiguos proyectos
+    description: Some quick example text to build on the card title and make up the bulk of the card's content.
+    url: 
+    picture: http://placehold.it/150x150
+
+  - title: Gestión de impresoras 3D
+    description: Some quick example text to build on the card title and make up the bulk of the card's content.
+    url: 
+    picture: http://placehold.it/150x150
+
+  - title: Miembros
+    description: Some quick example text to build on the card title and make up the bulk of the card's content.
+    url: 
+    picture: http://placehold.it/150x150
+
+  - title: Tutoriales
+    description: Some quick example text to build on the card title and make up the bulk of the card's content.
+    url: 
+    picture: http://placehold.it/150x150
+
+  - title: Repositorios
+    description: Some quick example text to build on the card title and make up the bulk of the card's content.
+    url: 
+    picture: http://placehold.it/150x150
+
+  - title: Wiki
+    description: Some quick example text to build on the card title and make up the bulk of the card's content.
+    url: 
+    picture: http://placehold.it/150x150
+
 # Collections
 collections:
    news:

@@ -1,0 +1,25 @@
+<!-- Links to important sections of the website -->
+    <section id="moreinfo">
+      <div class="container">
+        {% for entry in site.more_info %}
+        {% assign var = forloop.index0 | modulo:3 %}
+        {% if var == 0 %}
+        <div class="row{% if forloop.index0 != 0 %} mt-3{% endif %}">
+          <div class="card-deck">
+        {% endif %}
+            <div class="card">
+              <img class="card-img-top" src="{{entry.picture}}" alt="{{entry.title}}">
+              <div class="card-block">
+                <h4 class="card-title">{{entry.title}}</h4>
+                <p class="card-text">{{entry.description}}</p>
+              </div>
+            </div>
+        {% if var == 2 %}
+          </div>
+        </div>
+        <!-- /.row -->
+        {% endif %}
+        {% endfor %}
+      </div>
+      <!-- /.container -->
+    </section>
