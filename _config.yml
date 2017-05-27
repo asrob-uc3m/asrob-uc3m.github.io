@@ -44,16 +44,26 @@ society:
   short_name: ASROB
   email: 
   # Social networking links used in footer. Update and remove as you like.
-  twitter:       
-  facebook:       
-  github:          
-  stackexchange:  
-  linkedin:      
-  instagram:     
-  flickr:         
-  tumblr:         
-  # google plus id, include the '+', eg +mmistakes
-  google_plus: 
+  # (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+  social:
+      - id: github
+        name: GitHub
+        url: 
+      - id: twitter
+        name: Twitter
+        url:
+      - id: facebook
+        name: Facebook   
+        url:
+      - id: linkedin
+        name: Linkedin
+        url:
+      - id: google_plus
+        name: Google+
+        url:
+      - id: envelope
+        name: Email
+        url: 
 
 # Collections
 #collections:

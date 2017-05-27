@@ -1,0 +1,24 @@
+  <section id="about">
+        <div class="container">
+            <!-- Page Heading -->
+            <h1 class="mt-4">{{site.society.short_name}}</h1>
+            <h3 class="mb-4">{{site.society.name}}</h2>
+            
+            {% for post in site.posts%}
+              {% if post.type == 'about' %}
+               {{post.content}}
+              {% endif %}
+            {% endfor %}
+
+            <div class="text-center">
+              <div class="btn-group" role="group" aria-label="Social Networks">
+                {% for network in site.society.social %}
+                <a href="{{network.url}}" class="btn btn-secondary" class="card-link">{{network.name}}</a>
+                {% endfor %}
+              </div>
+            </div>
+
+            <hr>
+          </div>
+    </section>
+
