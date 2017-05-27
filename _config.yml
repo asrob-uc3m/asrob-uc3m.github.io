@@ -66,5 +66,7 @@ society:
         url: 
 
 # Collections
-#collections:
+collections:
+   news:
+     my_title: News
     

@@ -1,0 +1,6 @@
+---
+type: news
+title: More news!
+description: We have more news for you!
+picture: http://placehold.it/700x300
+---
