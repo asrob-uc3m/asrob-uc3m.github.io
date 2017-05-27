@@ -65,6 +65,7 @@ society:
         name: Email
         url: 
 
+# More info: these are the links to the main sections of the website
 more_info:
   - title: Antiguos proyectos
     description: Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -95,6 +96,16 @@ more_info:
     description: Some quick example text to build on the card title and make up the bulk of the card's content.
     url: 
     picture: http://placehold.it/150x150
+
+# other links: links to other useful resources
+other_links:
+  - name: Inventario
+    url: 
+  - name: Contributors
+    url:
+  - name: Trophies & Awards
+    url: 
+
 
 # Collections
 collections:
