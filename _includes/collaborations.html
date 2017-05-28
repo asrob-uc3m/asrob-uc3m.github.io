@@ -1,12 +1,13 @@
 <!-- People supporting us -->
     <section id="collaborations">
       <div class="container">
+        <!--<h4>Proudly supported by:</h4> -->
         {% for entry in site.collaborations %}
         {% assign var = forloop.index0 | modulo:4 %}
         {% if var == 0 %}
-        <div class="row{% if forloop.index0 == 0 %} mt-3{% endif %}">
+        <div class="row{% if forloop.index0 == 0 %} mt-5{% endif %}">
         {% endif %}
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-6 text-center">
               <a href="{{entry.url}}">
                   <img src="{{entry.picture}}" class="img-responsive img-centered" alt="{{entry.name}}">
               </a>

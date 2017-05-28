@@ -1,6 +1,0 @@
----
-type: news
-title: New Website!
-description: We have a new website!
-picture: http://placehold.it/700x300
----

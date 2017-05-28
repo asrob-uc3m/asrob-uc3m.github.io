@@ -1,0 +1,6 @@
+---
+type: news
+title: ¡Nueva web!
+description: Estrenamos nueva web
+picture: https://media.giphy.com/media/7rj2ZgttvgomY/giphy.gif
+---

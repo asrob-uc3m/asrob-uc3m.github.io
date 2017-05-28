@@ -48,78 +48,81 @@ society:
   social:
       - id: github
         name: GitHub
-        url: 
+        url: https://github.com/asrob-uc3m
+      - id: youtube
+        name: YouTube
+        url: http://www.youtube.com/user/asrobuc3m/featured
       - id: twitter
         name: Twitter
-        url:
+        url: http://twitter.com/asrob_uc3m
       - id: facebook
         name: Facebook   
-        url:
+        url: http://www.facebook.com/pages/Asociacion-de-Robotica-UC3M/170784706272131
       - id: linkedin
         name: Linkedin
-        url:
+        url: https://www.linkedin.com/in/asrobuc3m
       - id: google_plus
         name: Google+
-        url:
+        url: http://plus.google.com/u/0/117320353227938266035
       - id: envelope
         name: Email
-        url: 
+        url: mailto:asrob-uc3m@gmail.com
 
 # More info: these are the links to the main sections of the website
 more_info:
   - title: Antiguos proyectos
-    description: Some quick example text to build on the card title and make up the bulk of the card's content.
-    url: 
+    description: Proyectos que se llevaron a cabo en ASROB, pero que actualmente no cuentan con un Grupo de Trabajo Activo.
+    url: http://asrob.uc3m.es/index.php/Antiguos_Proyectos
     picture: http://placehold.it/150x150
 
   - title: Gestión de impresoras 3D
-    description: Some quick example text to build on the card title and make up the bulk of the card's content.
-    url: 
-    picture: http://placehold.it/150x150
+    description: En ASROB disponemos de varias impresoras 3D. Entérate aquí sobre cómo usarlas.
+    url: http://asrob.uc3m.es/printers
+    picture: http://asrob.uc3m.es/images/thumb/e/e3/Asrob-3d-printer-logo.png/200px-Asrob-3d-printer-logo.png
 
   - title: Miembros
-    description: Some quick example text to build on the card title and make up the bulk of the card's content.
-    url: 
+    description: Aquí se encuentra el Listado de Socios con Puesto de Responsabilidad, así como los Antiguos Miembros y el Hall of Fame. Para un listado de socios actuales, revisa las páginas de cada grupo activo.
+    url: http://asrob.uc3m.es/index.php/Lista_de_socios
     picture: http://placehold.it/150x150
 
   - title: Tutoriales
-    description: Some quick example text to build on the card title and make up the bulk of the card's content.
-    url: 
-    picture: http://placehold.it/150x150
+    description: Recopilación de tutoriales y materiales útiles sobre los programas y herramientas que usamos en ASROB.
+    url: http://asrob.uc3m.es/index.php/Tutoriales
+    picture: http://asrob.uc3m.es/images/thumb/0/0b/Tutorial.jpg/200px-Tutorial.jpg
 
   - title: Repositorios
-    description: Some quick example text to build on the card title and make up the bulk of the card's content.
-    url: 
-    picture: http://placehold.it/150x150
+    description: ¡Nuestro código es libre! Puedes echarle un ojo aquí para aprender, contribuir o simplemente curiosear.
+    url: https://github.com/asrob-uc3m
+    picture: http://asrob.uc3m.es/images/thumb/f/fe/Git_icon.png/50px-Git_icon.png
 
   - title: Wiki
-    description: Some quick example text to build on the card title and make up the bulk of the card's content.
-    url: 
+    description: Ahora tenemos esta web, pero mucha de la documentación de ASROB sigue estando en la wiki.
+    url: http://asrob.uc3m.es/index.php/Main_Page
     picture: http://placehold.it/150x150
 
 # other links: links to other useful resources
 other_links:
   - name: Inventario
-    url: 
+    url: http://asrob.uc3m.es/partkeepr-0.79/web/
   - name: Contributors
-    url:
+    url: http://asrob.uc3m.es/contributors
   - name: Trophies & Awards
-    url: 
+    url: http://asrob.uc3m.es/index.php/Trophies_%26_Awards
 
 # collaborations: people that supports us
 collaborations:
   - name: RoboticsLab
-    url: 
-    picture: http://placehold.it/150x150
+    url: http://www.uc3m.es/
+    picture: http://asrob.uc3m.es/images/thumb/1/1b/Roboticslab_transpa.png/60px-Roboticslab_transpa.png
   - name: UC3M
-    url: 
-    picture: http://placehold.it/150x150
+    url: http://roboticslab.uc3m.es/roboticslab
+    picture: http://asrob.uc3m.es/images/thumb/0/0a/Uc3m_transpa.png/200px-Uc3m_transpa.png
   - name: IEEE
-    url: 
-    picture: http://placehold.it/150x150
+    url: http://www.ieeespain.org/?q=ramas
+    picture: http://asrob.uc3m.es/images/thumb/e/e5/IEEE_transpa.png/150px-IEEE_transpa.png
   - name: Robocity2030
-    url: 
-    picture: http://placehold.it/150x150
+    url: http://www.robocity2030.org/branches/
+    picture: http://asrob.uc3m.es/images/thumb/9/93/Robocity2030_transpa.png/250px-Robocity2030_transpa.png
 
 # Collections
 collections:
