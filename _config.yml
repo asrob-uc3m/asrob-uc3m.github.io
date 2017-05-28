@@ -120,8 +120,11 @@ collaborations:
   - name: Robocity2030
     url: 
     picture: http://placehold.it/150x150
+
 # Collections
 collections:
-   news:
-     my_title: News
+    news:
+        my_title: News
+    workgroups:
+        title: Grupos de Trabajo Activos
     

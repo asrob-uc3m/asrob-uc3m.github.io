@@ -1,0 +1,40 @@
+<!-- Active workgroups go here -->
+      <section id="workgroups">
+        <div class="container">
+            <!-- Section Heading -->
+            <h1 class="my-4">Grupos de trabajo activos</h1>
+
+            {% for workgroup in site.workgroups %}
+            {% assign var = forloop.index0 | modulo:2 %}
+            <!-- Project {{forloop.index}} -->
+            <div class="row">
+                {% if var == 0 %}
+                <div class="col-md-7">
+                    <a href="{{workgroup.url}}">
+                        <img class="img-fluid rounded mb-3 mb-md-0" src="{{workgroup.picture}}" alt="{{workgroup.name}}">
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <h3>{{workgroup.name}}</h3>
+                    <p>{{workgroup.description}}</p>
+                    <a class="btn btn-primary" href="{{workgroup.url}}">View Project</a>
+                </div>
+                {% else %}
+                <div class="col-md-5">
+                    <h3>{{workgroup.name}}</h3>
+                    <p>{{workgroup.description}}</p>
+                    <a class="btn btn-primary" href="{{workgroup.url}}">View Project</a>
+                </div>
+                <div class="col-md-7">
+                    <a href="{{workgroup.url}}">
+                        <img class="img-fluid rounded mb-3 mb-md-0" src="{{workgroup.picture}}" alt="{{workgroup.name}}">
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+            <!-- /.row -->
+            <hr>
+            {% endfor %}
+        </div>    
+        <!-- /.container -->
+    </section>
