@@ -106,7 +106,20 @@ other_links:
   - name: Trophies & Awards
     url: 
 
-
+# collaborations: people that supports us
+collaborations:
+  - name: RoboticsLab
+    url: 
+    picture: http://placehold.it/150x150
+  - name: UC3M
+    url: 
+    picture: http://placehold.it/150x150
+  - name: IEEE
+    url: 
+    picture: http://placehold.it/150x150
+  - name: Robocity2030
+    url: 
+    picture: http://placehold.it/150x150
 # Collections
 collections:
    news:
