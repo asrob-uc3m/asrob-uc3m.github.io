@@ -3,7 +3,7 @@ type: workgroup
 name: UAVs
 description: UAV son las siglas de Unmanned Aerial Vehicle, vehículo aéreo no tripulado. <br> Si estas interesad@ en aprender sobre drones este es tu sitio. Aprenderás a diseñar tus drones en CAD (Diseño 3D), cómo imprimir tus piezas gratis en 3D. Solemos dar charlas acerca de los algoritmos de control que permiten que se mantengan estables en vuelo y de cualquier otro tema que pueda surgir interés en aprender. 
 url: http://asrob.uc3m.es/index.php/UAVs
-picture: http://asrob.uc3m.es/images/thumb/4/4d/Uav_port.jpg/320px-Uav_port.jpg
+picture: img/uavs.png
 ---
 
 The long description goes here in the body.
