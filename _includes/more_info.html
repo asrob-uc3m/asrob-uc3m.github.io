@@ -12,9 +12,13 @@
               <img class="card-img-top" src="{{entry.picture}}" alt="{{entry.title}}">
               <div class="card-block">
                 <h4 class="card-title">{{entry.title}}</h4>
-                <p class="card-text">{{entry.description}}</p>
+                <p class="card-text text-justify">{{entry.description}}</p>
+              </div>
+              <div class="card-footer">
+                <a href="{{entry.url}}" class="btn btn-primary">Ir &rarr;</a>
               </div>
             </div>
+
         {% if var == 2 or forloop.last %}
           </div>
         </div>
