@@ -13,11 +13,11 @@
             {% endfor %}
 
             <div class="text-center">
-              <div class="btn-group" role="group" aria-label="Social Networks">
+              <p>
                 {% for network in site.society.social %}
-                <a href="{{network.url}}" class="btn btn-secondary" class="card-link">{{network.name}}</a>
+                <a class="fa fa-2x fa-border fa-{{network.id}} mr-4" href="{{network.url}}"></a>
                 {% endfor %}
-              </div>
+              </p>
             </div>
 
             <hr>

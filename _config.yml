@@ -12,9 +12,9 @@ url: "http://example.com" # the base hostname & protocol for your site
 markdown: kramdown
 theme: minima
 
-include: 
+include:
   - .htaccess
-exclude: 
+exclude:
   - "*.less"
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -42,7 +42,7 @@ exclude:
 society:
   name: Asociación de Robótica UC3M
   short_name: ASROB
-  email: 
+  email:
   # Social networking links used in footer. Update and remove as you like.
   # (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
   social:
@@ -56,12 +56,12 @@ society:
         name: Twitter
         url: http://twitter.com/asrob_uc3m
       - id: facebook
-        name: Facebook   
+        name: Facebook
         url: http://www.facebook.com/pages/Asociacion-de-Robotica-UC3M/170784706272131
       - id: linkedin
         name: Linkedin
         url: https://www.linkedin.com/in/asrobuc3m
-      - id: google_plus
+      - id: google-plus
         name: Google+
         url: http://plus.google.com/u/0/117320353227938266035
       - id: envelope
@@ -129,4 +129,3 @@ collections:
         my_title: News
     workgroups:
         title: Grupos de Trabajo Activos
-    
