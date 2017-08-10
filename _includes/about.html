@@ -3,10 +3,12 @@
             <!-- Page Heading -->
             <h1 class="mt-4">{{site.society.short_name}}</h1>
             <h3 class="mb-4">{{site.society.name}}</h2>
-            
+
             {% for post in site.posts%}
               {% if post.type == 'about' %}
-               {{post.content}}
+                <div class="text-justify">
+                {{post.content}}
+              </div>
               {% endif %}
             {% endfor %}
 
@@ -21,4 +23,3 @@
             <hr>
           </div>
     </section>
-

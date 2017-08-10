@@ -16,13 +16,13 @@
                 </div>
                 <div class="col-md-5">
                     <h3>{{workgroup.name}}</h3>
-                    <p>{{workgroup.description}}</p>
+                    <p class="text-justify">{{workgroup.description}}</p>
                     <a class="btn btn-primary" href="{{workgroup.url}}">View Project</a>
                 </div>
                 {% else %}
                 <div class="col-md-5">
                     <h3>{{workgroup.name}}</h3>
-                    <p>{{workgroup.description}}</p>
+                    <p class="text-justify">{{workgroup.description}}</p>
                     <a class="btn btn-primary" href="{{workgroup.url}}">View Project</a>
                 </div>
                 <div class="col-md-7">
@@ -35,6 +35,6 @@
             <!-- /.row -->
             <hr>
             {% endfor %}
-        </div>    
+        </div>
         <!-- /.container -->
     </section>
