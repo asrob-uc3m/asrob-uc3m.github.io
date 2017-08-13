@@ -17,7 +17,7 @@
                   {% for entry in site.news %}
                     <div class="carousel-item text-center{%if forloop.index0 == 0%} active{% endif %}">
                       <img src="{{entry.picture}}" alt="picture-{{forloop.index}}" class= "rounded">
-                      <div class="carousel-caption d-none d-md-block bg-faded rounded text-muted">
+                      <div class="carousel-caption d-none d-md-block img-fluid bg-faded rounded text-muted">
                         <h3>{{entry.title}}</h3>
                         <p>{{entry.description}}</p>
                       </div>
