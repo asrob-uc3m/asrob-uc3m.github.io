@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+    <body id="page-top" class="index">
+
+    {% include navigation.html %}
+    {% include header.html %}
+
+    <!-- Actual contents go here -->
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Portfolio Item Heading -->
+        <h1 class="page-header mt-4">{{page.name}}</h1>
+        {%if page.subtitle%}<h3 class="text-muted">{{page.subtitle}}</h3>{%endif%}
+        <hr class="mb-4">
+
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+            <div class="col-md-8">
+                <img class="img-fluid" src="{{page.picture_full}}" alt="">
+            </div>
+            <div class="col-md-4">
+                <div class="text-justify">
+                  {{page.content}}
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Telegram group info --->
+      <div class="container">
+        <div class="alert alert-info my-4" role="alert">
+          <div class="row">
+            <div class="col-md-1">
+              <img class='img-fluid' src="/img/telegram-logo.png" alt="">
+            </div>
+            <div class="col-md-11">
+              Tenemos un <a href="#">grupo de Telegram</a> para organizarnos, avisar cuando no podemos ir a las reuniones y decisiones técnicas. Úsalo también para contactar con nosotros si quieres unirte o tienes alguna duda.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+            <section id="moreinfo">
+                <h1 class="my-4">Proyectos</h1>
+                {% for entry in site.more_info %}
+                {% assign var = forloop.index0 | modulo:3 %}
+                {% if var == 0 %}
+                <div class="row{% if forloop.index0 != 0 %} mt-3{% endif %}">
+                  <div class="card-deck">
+                {% endif %}
+                    <div class="card text-center">
+                      <img class="card-img-top" src="{{entry.picture}}" alt="{{entry.title}}">
+                      <div class="card-block">
+                        <h4 class="card-title">{{entry.title}}</h4>
+                        <p class="card-text text-justify">{{entry.description}}</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="{{entry.url}}" class="btn btn-primary">Ir &rarr;</a>
+                      </div>
+                    </div>
+
+                {% if var == 2 or forloop.last %}
+                  </div>
+                </div>
+                <!-- /.row -->
+                {% endif %}
+                {% endfor %}
+                <div class=" class="my-4"">
+                  <hr>
+                </div>
+
+            </section>
+
+    </div>
+    <!-- /.container -->
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

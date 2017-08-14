@@ -1,9 +1,13 @@
 ---
 type: workgroup
+id: game
 name: G.A.M.E
-description: G.A.M.E son las siglas de "Group for Arcade Machine Experimentation". <br> ¿Te gustan las máquinas recreativas? ¿Air hockey? ¿Futbolín? En esta rama mezclamos todas esas cosas con la robótica, construyendo robots y software capaces de aprender a jugar a estos juegos, ya sea contra humanos o en juegos de un sólo jugador. Para pertenecer a este grupo no hacen falta conocimientos avanzados de robótica, sólo ganas de aprender jugan
+subtitle: Group for Arcade Machine Experimentation
+description: G.A.M.E son las siglas de "Group for Arcade Machine Experimentation". <br> ¿Te gustan las máquinas recreativas? ¿Air hockey? ¿Futbolín? En esta rama mezclamos todas esas cosas con la robótica, construyendo robots y software capaces de aprender a jugar a estos juegos, ya sea contra humanos o en juegos de un sólo jugador. Para pertenecer a este grupo no hacen falta conocimientos avanzados de robótica, sólo ganas de aprender jugando.
 url: http://asrob.uc3m.es/index.php/GAME
-picture: img/game.png
+picture: /img/game.png
+picture_full: http://placehold.it/750x500
+layout: workgroup
 ---
 
-The long description goes here in the body.
+My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?

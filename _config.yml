@@ -129,3 +129,4 @@ collections:
         my_title: News
     workgroups:
         title: Grupos de Trabajo Activos
+        output: true
