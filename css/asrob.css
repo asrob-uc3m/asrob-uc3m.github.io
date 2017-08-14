@@ -12,3 +12,31 @@ div.anchor {
     top: -70px;
     visibility: hidden;
 }
+
+.carousel-caption {
+  right: 20%;
+  bottom: 30px;
+  left: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.carousel-indicators {
+  bottom: 0px;
+}
+
+@media (max-width: 992px) {
+    .carousel-caption  {
+        font-size: 11px;
+        bottom: 2px;
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 663px) {
+    .carousel-caption h3 {
+        font-size: 15px;
+        padding-bottom: 2px;
+    }
+}
