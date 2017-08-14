@@ -70,23 +70,23 @@ society:
 
   management:
       president:
-        - name: Juan G. Victores
+          name: Juan G. Victores
           link: http://roboticslab.uc3m.es/roboticslab/people/jg-victores
           email: jcgvicto[at]gmail[dot]com
       secretary:
-        - name: David Estevez
+          name: David Estevez
           link: http://destevez.me
           email: david[dot]estevez[dot]fdez[at]gmail[dot]com
       treasurer:
-        - name: Juan G. Victores
+          name: Juan G. Victores
           link: http://roboticslab.uc3m.es/roboticslab/people/jg-victores
           email: jcgvicto[at]gmail[dot]com
       printers:
-        - name: Jorge Ramirez
+          name: Jorge Ramirez
           link: https://github.com/jorgercobo
           email: jorgerc[dot]21[at]gmail[dot]com
       mails:
-        - name: Enrique Rodicio (Kike)
+          name: Enrique Rodicio (Kike)
           link: http://asrob.uc3m.es/index.php?title=User:Kfrodicio
           email: kfrodicio[at]gmail[dot]com
       social:
@@ -111,7 +111,7 @@ more_info:
 
   - title: Miembros
     description: Aquí se encuentra el Listado de Socios con Puesto de Responsabilidad, así como los Antiguos Miembros y el Hall of Fame. Para un listado de socios actuales, revisa las páginas de cada grupo activo.
-    url: http://asrob.uc3m.es/index.php/Lista_de_socios
+    url: /members.html
     picture: /img/members.png
 
   - title: Tutoriales

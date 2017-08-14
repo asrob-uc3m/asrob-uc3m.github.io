@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+    <body id="page-top" class="index">
+
+      {% include navigation.html %}
+      {% include header.html %}
+
+      <!-- Page Content -->
+      <div class="container">
+
+        {% include page_heading.html title="Miembros Activos" subtitle="Listado de Socios con Puesto de Responsabilidad" %}
+
+        <div class="row">
+          <div class="col">
+            <p class="text-justify">Aquí se encuentra el Listado de Socios con Puesto de Responsabilidad, así como los Antiguos Miembros y el Hall of Fame. Para un listado de socios actuales, revisa las páginas de cada grupo activo.</p>
+          </div>
+        </div>
+
+        <div class="row my-4">
+          <div class="col">
+            <h2>Junta directiva</h2>
+            <div class="list-group">
+              <a href="{{site.society.management.president.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1"><strong>Presidente</strong></h5>
+                  <!--<small>3 days ago</small>-->
+                </div>
+                <p class="mb-1">{{site.society.management.president.name}}</p>
+                <small class="text-muted">Email: {{site.society.management.president.email}}</small>
+              </a>
+              <a href="{{site.society.management.secretary.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1"><strong>Secretario</strong></h5>
+                  <!--<small>3 days ago</small>-->
+                </div>
+                <p class="mb-1">{{site.society.management.secretary.name}}</p>
+                <small class="text-muted">Email: {{site.society.management.secretary.email}}</small>
+              </a>
+              <a href="{{site.society.management.treasurer.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1"><strong>Tesorero</strong></h5>
+                  <!--<small>3 days ago</small>-->
+                </div>
+                <p class="mb-1">{{site.society.management.treasurer.name}}</p>
+                <small class="text-muted">Email: {{site.society.management.treasurer.email}}</small>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-8">
+          <div class="col">
+            <h2>Responsable de Impresoras 3D</h2>
+            <div class="list-group">
+              <a href="{{site.society.management.printers.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1"><strong>Presidente</strong></h5>
+                <!--<small>3 days ago</small>-->
+                </div>
+                <p class="mb-1">{{site.society.management.printers.name}}</p>
+                <small class="text-muted">Email: {{site.society.management.printers.email}}</small>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-4">
+          <div class="col">
+            <h2>Responsable(s) de Redes Sociales</h2>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1"><strong>Presidente</strong></h5>
+                  <!--<small>3 days ago</small>-->
+                </div>
+                <p class="mb-1">{{site.society.management.president.name}}</p>
+                <small class="text-muted">Email: {{site.society.management.president.email}}</small>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-4">
+          <div class="col">
+            <h2>Responsable de respuestas a correo</h2>
+            <div class="list-group">
+              <a href="{{site.society.management.mails.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1"><strong>Responsable de respuestas a correo</strong></h5>
+                  <!--<small>3 days ago</small>-->
+                </div>
+                <p class="mb-1">{{site.society.management.mails.name}}</p>
+                <small class="text-muted">Email: {{site.society.management.mails.email}}</small>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-4">
+          <div class="col">
+            <h2>Responsables de Grupos de Trabajo Activos</h2>
+            <div class="list-group">
+              {% for workgroup in site.workgroups %}
+              <a href="{{workgroup.manager_link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1"><strong>Responsable grupo {{workgroup.name}}</strong></h5>
+                  <!--<small>3 days ago</small>-->
+                </div>
+                <p class="mb-1">{{workgroup.manager}}</p>
+                <small class="text-muted">Email: {{workgroup.manager_email}}</small>
+              </a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-4">
+          <div class="col">
+            <h2>Antiguos Miembros</h2>
+            <p>La relación de Antiguos Miembros de la Asociación de Robótica UC3M (ASROB) se puede consultar <a href="http://asrob.uc3m.es/index.php/Antiguos_Miembros"> aquí</a>.</p>
+          </div>
+        </div>
+
+        <div class="row my-4">
+          <div class="col">
+            <h2>Hall of Fame</h2>
+            <p>Un tributo a los miembros más destacables de nuestra asociación de Robótica UC3M (ASROB) se puede consultar <a href="http://asrob.uc3m.es/index.php/Hall_of_Fame">aquí</a>.</p>
+          </div>
+        </div>
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>
