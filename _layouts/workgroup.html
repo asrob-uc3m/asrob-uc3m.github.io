@@ -7,15 +7,10 @@
     {% include navigation.html %}
     {% include header.html %}
 
-    <!-- Actual contents go here -->
     <!-- Page Content -->
     <div class="container">
 
-        <!-- Portfolio Item Heading -->
-        <h1 class="page-header mt-4">{{page.name}}</h1>
-        {%if page.subtitle%}<h3 class="text-muted">{{page.subtitle}}</h3>{%endif%}
-        <hr class="mb-4">
-
+      {% include page_heading.html title=page.name subtitle=page.subtitle %}
 
         <!-- Portfolio Item Row -->
         <div class="row">
@@ -30,34 +25,9 @@
         </div>
       </div>
 
-      <!-- workgroup manager info -->
-      <div class="container">
-        <div class="alert alert-warning my-4" role="alert">
-          <strong>Próxima reunión de {{page.name}}:</strong> {{page.next_meeting}}
-        </div>
-      </div>
-
-
-      <!-- workgroup manager info -->
-      <div class="container">
-        <div class="alert alert-success my-4" role="alert">
-          <strong>Actual resposable de {{page.name}}:</strong> {{page.manager}} ({{page.manager_email}})
-        </div>
-      </div>
-
-      <!-- Telegram group info --->
-      <div class="container">
-        <div class="alert alert-info my-4" role="alert">
-          <div class="row">
-            <div class="col-md-1">
-              <img class='img-fluid' src="/img/telegram-logo.png" alt="">
-            </div>
-            <div class="col-md-11">
-              Tenemos un <a href="#">grupo de Telegram</a> para organizarnos, avisar cuando no podemos ir a las reuniones y decisiones técnicas. Úsalo también para contactar con nosotros si quieres unirte o tienes alguna duda.
-            </div>
-          </div>
-        </div>
-      </div>
+      {% include alert_next_meeting.html name=page.name date=page.next_meeting %}
+      {% include alert_manager_info.html group_name=page.name name=page.manager email=page.manager_email %}
+      {% include alert_telegram.html link="#" %}
 
       {% assign workgroup_projects = site.projects | where: "parent", page.workgroup_id %}
       {% if workgroup_projects.size > 0  %}
