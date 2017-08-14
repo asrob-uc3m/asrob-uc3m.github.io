@@ -135,7 +135,7 @@ other_links:
   - name: Contributors
     url: http://asrob.uc3m.es/contributors
   - name: Trophies & Awards
-    url: http://asrob.uc3m.es/index.php/Trophies_%26_Awards
+    url: /awards.html
 
 # collaborations: people that supports us
 collaborations:
@@ -162,3 +162,6 @@ collections:
     projects:
         title: Proyectos
         output: true
+    awards:
+        title: Premios y trofeos
+        output: false
