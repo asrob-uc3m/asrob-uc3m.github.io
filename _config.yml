@@ -130,3 +130,6 @@ collections:
     workgroups:
         title: Grupos de Trabajo Activos
         output: true
+    projects:
+        title: Proyectos
+        output: true
