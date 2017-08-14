@@ -1,25 +1,24 @@
-  <section id="about">
-        <div class="container my-4">
-            <!-- Page Heading -->
-            <h1 class="mt-4">{{site.society.short_name}}</h1>
-            <h3 class="mb-4">{{site.society.name}}</h2>
+  <div class="anchor" id="about"></div>
+  <div class="container my-4">
+      <!-- Page Heading -->
+      <h1 class="mt-4">{{site.society.short_name}}</h1>
+      <h3 class="mb-4">{{site.society.name}}</h2>
 
-            {% for post in site.posts%}
-              {% if post.type == 'about' %}
-                <div class="text-justify">
-                {{post.content}}
-              </div>
-              {% endif %}
-            {% endfor %}
+      {% for post in site.posts%}
+        {% if post.type == 'about' %}
+          <div class="text-justify">
+          {{post.content}}
+        </div>
+        {% endif %}
+      {% endfor %}
 
-            <div class="text-center my-4">
-              <p>
-                {% for network in site.society.social %}
-                <a class="fa fa-2x fa-border fa-{{network.id}} mr-4" href="{{network.url}}"></a>
-                {% endfor %}
-              </p>
-            </div>
+      <div class="text-center my-4">
+        <p>
+          {% for network in site.society.social %}
+          <a class="fa fa-2x fa-border fa-{{network.id}} mr-4" href="{{network.url}}"></a>
+          {% endfor %}
+        </p>
+      </div>
 
-            <hr>
-          </div>
-    </section>
+      <hr>
+    </div>
