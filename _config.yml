@@ -68,6 +68,35 @@ society:
         name: Email
         url: mailto:asrob-uc3m@gmail.com
 
+  management:
+      president:
+        - name: Juan G. Victores
+          link: http://roboticslab.uc3m.es/roboticslab/people/jg-victores
+          email: jcgvicto[at]gmail[dot]com
+      secretary:
+        - name: David Estevez
+          link: http://destevez.me
+          email: david[dot]estevez[dot]fdez[at]gmail[dot]com
+      treasurer:
+        - name: Juan G. Victores
+          link: http://roboticslab.uc3m.es/roboticslab/people/jg-victores
+          email: jcgvicto[at]gmail[dot]com
+      printers:
+        - name: Jorge Ramirez
+          link: https://github.com/jorgercobo
+          email: jorgerc[dot]21[at]gmail[dot]com
+      mails:
+        - name: Enrique Rodicio (Kike)
+          link: http://asrob.uc3m.es/index.php?title=User:Kfrodicio
+          email: kfrodicio[at]gmail[dot]com
+      social:
+        - name: Andres Prieto
+          link: http://asrob.uc3m.es/index.php?title=User:Aprieto
+          email: andresprietoyanes[at]gmail[dot]com
+        - name: Enrique Rodicio (Kike)
+          link: http://asrob.uc3m.es/index.php?title=User:Kfrodicio
+          email: kfrodicio[at]gmail[dot]com
+
 # More info: these are the links to the main sections of the website
 more_info:
   - title: Antiguos proyectos
