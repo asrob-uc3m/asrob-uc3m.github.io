@@ -1,6 +1,6 @@
 ---
 type: workgroup
-id: game
+workgroup_id: game
 name: G.A.M.E
 subtitle: Group for Arcade Machine Experimentation
 description: G.A.M.E son las siglas de "Group for Arcade Machine Experimentation". <br> ¿Te gustan las máquinas recreativas? ¿Air hockey? ¿Futbolín? En esta rama mezclamos todas esas cosas con la robótica, construyendo robots y software capaces de aprender a jugar a estos juegos, ya sea contra humanos o en juegos de un sólo jugador. Para pertenecer a este grupo no hacen falta conocimientos avanzados de robótica, sólo ganas de aprender jugando.
