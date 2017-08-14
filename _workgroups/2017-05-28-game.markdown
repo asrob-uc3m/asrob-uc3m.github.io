@@ -9,6 +9,7 @@ picture: /img/game.png
 picture_full: http://placehold.it/750x500
 manager: John Doe
 manager_email: john.doe@gmail.com
+next_meeting: Miércoles 4 en aula 4.5.F.05
 layout: workgroup
 ---
 

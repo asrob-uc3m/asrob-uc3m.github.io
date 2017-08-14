@@ -17,9 +17,11 @@
                 <div class="col-md-5">
                     <h3 class="text-center">{{workgroup.name}}</h3>
                     <p class="text-justify">{{workgroup.description}}</p>
+                    {% if workgroup.next_meeting %}
                     <div class="alert alert-info" role="alert">
-                      Próxima reunión día x a las x en el aula y
+                      <strong>Próxima reunión:</strong> {{workgroup.next_meeting}}
                     </div>
+                    {% endif %}
                     <div class="text-center">
                       <a class="btn btn-primary" href="{{workgroup.url}}">Más Info</a>
                     </div>
@@ -28,9 +30,11 @@
                 <div class="col-md-5">
                     <h3 class="text-center">{{workgroup.name}}</h3>
                     <p class="text-justify">{{workgroup.description}}</p>
+                    {% if workgroup.next_meeting %}
                     <div class="alert alert-info" role="alert">
-                      Próxima reunión día x a las x en el aula y
+                      <strong>Próxima reunión:</strong> {{workgroup.next_meeting}}
                     </div>
+                    {% endif %}
                     <div class="text-center">
                       <a class="btn btn-primary" href="{{workgroup.url}}">Más Info</a>
                     </div>
