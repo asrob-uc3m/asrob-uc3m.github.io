@@ -59,26 +59,30 @@
         </div>
       </div>
 
+      {% assign workgroup_projects = site.projects | where: "parent", page.workgroup_id %}
+      {% if workgroup_projects.size > 0  %}
       <div class="container">
             <section id="moreinfo">
-                <h1 class="my-4">Proyectos</h1>
-                {% for entry in site.more_info %}
+
+              <h1 class="my-4">Proyectos</h1>
+                {% for project in workgroup_projects %}
                 {% assign var = forloop.index0 | modulo:3 %}
                 {% if var == 0 %}
                 <div class="row{% if forloop.index0 != 0 %} mt-3{% endif %}">
                   <div class="card-deck">
                 {% endif %}
-                    <div class="card text-center">
-                      <img class="card-img-top" src="{{entry.picture}}" alt="{{entry.title}}">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                      <img class="card-img-top" src="{{project.picture}}" alt="{{entry.title}}">
                       <div class="card-block">
-                        <h4 class="card-title">{{entry.title}}</h4>
-                        <p class="card-text text-justify">{{entry.description}}</p>
+                        <h3 class="card-title">{{project.title}}</h3>
+                        <p class="card-text text-justify">{{project.description}}</p>
                       </div>
-                      <div class="card-footer">
-                        <a href="{{entry.url}}" class="btn btn-primary">Ir &rarr;</a>
+                      <div class="align-bottom text-center mb-4">
+                        <a href="{{project.url}}" class="btn btn-primary">Ir &rarr;</a>
                       </div>
                     </div>
-
+                </div>
                 {% if var == 2 or forloop.last %}
                   </div>
                 </div>
@@ -91,6 +95,7 @@
             </section>
       </div>
       <!-- /.container -->
+      {% endif %}
 
     {% include footer.html %}
     {% include js.html %}
