@@ -22,21 +22,26 @@
           <div class="col">
             <div class="list-group">
               {% for award in site.awards %}
-              <a href="{{award.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div href="{{award.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-4"><strong>{{award.name}}</strong></h5>
                   <small>Fecha: {{award.date| date: "%d-%m-%y" }}</small>
                 </div>
                 <p class="mb-1">{{award.content}}</p>
-                <p class="mb-1"><strong>Participantes:</strong>
+                <p><strong>Puesto:</strong> {{award.place}}</p>
+                <p><strong>Participantes:</strong>
                 <ul>
                   {% for member in award.team %}
+                  {%if member.link %}
+                  <li><a href="{{member.link}}">{{member.name}}</a></li>
+                  {% else %}
                   <li>{{member.name}}</li>
+                  {% endif %}
                   {% endfor %}
                 </ul>
                 </p>
-                <p><strong>Puesto:</strong> {{award.place}}</p>
-              </a>
+                <p><strong>Más info:</strong> <a href="{{award.link}}">aquí</a>.</p>
+              </div>
               {% endfor %}
             </div>
           </div>
