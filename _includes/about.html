@@ -1,5 +1,5 @@
   <section id="about">
-        <div class="container">
+        <div class="container my-4">
             <!-- Page Heading -->
             <h1 class="mt-4">{{site.society.short_name}}</h1>
             <h3 class="mb-4">{{site.society.name}}</h2>
@@ -12,7 +12,7 @@
               {% endif %}
             {% endfor %}
 
-            <div class="text-center">
+            <div class="text-center my-4">
               <p>
                 {% for network in site.society.social %}
                 <a class="fa fa-2x fa-border fa-{{network.id}} mr-4" href="{{network.url}}"></a>

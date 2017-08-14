@@ -1,18 +1,18 @@
 <!-- Active workgroups go here -->
       <section id="workgroups">
-        <div class="container">
+        <div class="container my-8">
             <!-- Section Heading -->
-            <h1 class="my-4 text-center">Grupos de trabajo activos</h1>
+            <h1 class="text-center my-4">Grupos de trabajo activos</h1>
 
             {% for workgroup in site.workgroups %}
             {% assign var = forloop.index0 | modulo:2 %}
             <!-- Project {{forloop.index}} -->
-            <div class="row">
+            <div class="row align-items-center">
                 {% if var == 0 %}
                 <div class="col-md-7">
-                    <a href="{{workgroup.url}}">
-                        <img class="img-fluid rounded mb-3 mb-md-0" src="{{workgroup.picture}}" alt="{{workgroup.name}}">
-                    </a>
+                  <a href="{{workgroup.url}}">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src="{{workgroup.picture}}" alt="{{workgroup.name}}">
+                  </a>
                 </div>
                 <div class="col-md-5">
                     <h3 class="text-center">{{workgroup.name}}</h3>
