@@ -6,6 +6,8 @@ description: Impresoras 3D. Olor a plástico derretido y laca. <br> Somos un gru
 url: http://asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story
 picture: /img/printer_one.png
 picture_full: http://placehold.it/750x500
+manager: John Doe
+manager_email: john.doe@gmail.com
 layout: workgroup
 ---
 

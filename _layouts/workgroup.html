@@ -30,6 +30,13 @@
         </div>
       </div>
 
+      <!-- workgroup manager info -->
+      <div class="container">
+        <div class="alert alert-success my-4" role="alert">
+          <strong>Actual resposable de {{page.name}}:</strong> {{page.manager}} ({{page.manager_email}})
+        </div>
+      </div>
+
       <!-- Telegram group info --->
       <div class="container">
         <div class="alert alert-info my-4" role="alert">
@@ -73,11 +80,10 @@
                 <div class=" class="my-4"">
                   <hr>
                 </div>
-
             </section>
+      </div>
+      <!-- /.container -->
 
-    </div>
-    <!-- /.container -->
     {% include footer.html %}
     {% include js.html %}
 

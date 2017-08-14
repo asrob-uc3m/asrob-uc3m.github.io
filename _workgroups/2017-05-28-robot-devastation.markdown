@@ -6,6 +6,8 @@ description: Un shooter de nueva generación con realidad aumentada y robots rea
 url: http://asrob.uc3m.es/index.php/Robot_Devastation
 picture: /img/rd.png
 picture_full: http://placehold.it/750x500
+manager: John Doe
+manager_email: john.doe@gmail.com
 layout: workgroup
 ---
 
