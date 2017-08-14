@@ -7,7 +7,8 @@ description: Una mesa de air hockey robotizada que juega contra personas.
 url: http://asrob.uc3m.es/index.php/AIr_Hockey
 url_github: https://github.com/asrob-uc3m/air-hockey
 picture: http://placehold.it/318x180
-picture_full: http://placehold.it/750x500
+picture_full: http://placehold.it/900x300
+status: activo
 layout: project
 ---
 

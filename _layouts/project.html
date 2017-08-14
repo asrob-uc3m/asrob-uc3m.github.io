@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+    <body id="page-top" class="index">
+
+      {% include navigation.html %}
+      {% include header.html %}
+
+      <!-- Page Content -->
+      <div class="container">
+
+        {% include page_heading.html title=page.name subtitle=page.subtitle %}
+
+        <!-- Feature picture -->
+        <div class="row">
+          <div class="col text-center">
+            <img class="img-fluid rounded mb-4" src="{{page.picture_full}}" alt="Feature picture">
+          </div>
+        </div>
+
+        {% if page.status %}
+        <div class="row">
+          <div class="col text-right">
+            {% assign status = 'success' | page.status == "activo" %}
+            {% assign status = 'default' | page.status == "terminado" %}
+            {% assign status = 'info' | page.status == "proyecto futuro" %}
+            <h4><strong>Estado:</strong> <span class="badge badge-{{status}}">{{page.status}}</span></h4>
+          </div>
+        </div>
+        {% endif %}
+
+        <!-- Contents -->
+        <div class="row">
+          <div class="col text-justify">
+            {{page.content}}
+          </div>
+        </div>
+      </div>
+
+      {% include footer.html %}
+      {% include js.html %}
+
+      </body>
+  </html>

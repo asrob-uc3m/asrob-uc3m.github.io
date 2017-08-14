@@ -7,7 +7,8 @@ description: ASROB-CADE será la recreativa de ASROB. Será construida como ejer
 url: http://asrob.uc3m.es/index.php/ASROB-cade
 url_github: https://github.com/asrob-uc3m/ASROB-CADE
 picture: http://placehold.it/318x180
-picture_full: http://placehold.it/750x500
+picture_full: http://placehold.it/900x300
+status: activo
 layout: project
 ---
 
