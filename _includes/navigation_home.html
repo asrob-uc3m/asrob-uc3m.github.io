@@ -7,14 +7,18 @@
             <a class="navbar-brand" href="/">{{site.society.short_name}}</a>
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    {% for workgroup in site.workgroups %}
-                    <li class="nav-item{%if page.id == workgroup.id%} active{%endif%}">
-                        <a class="nav-link" href="{{workgroup.url}}">{{workgroup.name}}<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
                     </li>
-                    {% endfor %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#workgroups">Grupos de trabajo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#moreinfo">Links</a>
+                    </li>
                 </ul>
             </div>
         </div>
