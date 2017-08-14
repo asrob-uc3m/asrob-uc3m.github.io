@@ -73,31 +73,31 @@ more_info:
   - title: Antiguos proyectos
     description: Proyectos que se llevaron a cabo en ASROB, pero que actualmente no cuentan con un Grupo de Trabajo Activo.
     url: http://asrob.uc3m.es/index.php/Antiguos_Proyectos
-    picture: img/old_projects.png
+    picture: /img/old_projects.png
 
   - title: Gestión de impresoras 3D
     description: En ASROB disponemos de varias impresoras 3D. Entérate aquí sobre cómo usarlas.
     url: http://asrob.uc3m.es/printers
-    picture: img/printers.png
+    picture: /img/printers.png
 
   - title: Miembros
     description: Aquí se encuentra el Listado de Socios con Puesto de Responsabilidad, así como los Antiguos Miembros y el Hall of Fame. Para un listado de socios actuales, revisa las páginas de cada grupo activo.
     url: http://asrob.uc3m.es/index.php/Lista_de_socios
-    picture: img/members.png
+    picture: /img/members.png
 
   - title: Tutoriales
     description: Recopilación de tutoriales y materiales útiles sobre los programas y herramientas que usamos en ASROB.
     url: http://asrob.uc3m.es/index.php/Tutoriales
-    picture: img/tutorials.png
+    picture: /img/tutorials.png
 
   - title: Repositorios
     description: ¡Nuestro código es libre! Puedes echarle un ojo aquí para aprender, contribuir o simplemente curiosear.
     url: https://github.com/asrob-uc3m
-    picture: img/repos.png
+    picture: /img/repos.png
   - title: Wiki
     description: Ahora tenemos esta web, pero mucha de la documentación de ASROB sigue estando en la wiki.
     url: http://asrob.uc3m.es/index.php/Main_Page
-    picture: img/wiki.png
+    picture: /img/wiki.png
 
 # other links: links to other useful resources
 other_links:
