@@ -28,6 +28,11 @@
                   </div>
               </div>
               {% else %}
+              <div class="col-md-7 featurette-responsive-img-hidden">
+                <a href="{{workgroup.url}}">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="{{workgroup.picture}}" alt="{{workgroup.name}}">
+                </a>
+              </div>
               <div class="col-md-5">
                   <h3 class="text-center">{{workgroup.name}}</h3>
                   <p class="text-justify">{{workgroup.description}}</p>
@@ -40,7 +45,7 @@
                     <a class="btn btn-primary" href="{{workgroup.url}}">Más Info</a>
                   </div>
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7 featurette-responsive-img">
                   <a href="{{workgroup.url}}">
                       <img class="img-fluid rounded mb-3 mb-md-0" src="{{workgroup.picture}}" alt="{{workgroup.name}}">
                   </a>

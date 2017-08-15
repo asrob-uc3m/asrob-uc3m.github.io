@@ -34,7 +34,19 @@ div.anchor {
     }
 }
 
-@media (max-width: 663px) {
+@media (max-width: 768px) {
+    .featurette-responsive-img {
+      display: none;
+    }
+}
+
+@media (min-width: 768px) {
+  .featurette-responsive-img-hidden {
+    display: none;
+  }
+
+}
+@media (max-width: 668px) {
     .carousel-caption h3 {
         font-size: 15px;
         padding-bottom: 2px;
