@@ -1,37 +1,68 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [1 Col Portfolio](http://startbootstrap.com/template-overviews/1-col-portfolio/)
+Asociación de Robótica (ASROB) UC3M
+------
 
-[1 Col Portfolio](http://startbootstrap.com/template-overviews/1-col-portfolio/) is a one column portfolio template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+Sito web de la Asociación de Robótica (ASROB) UC3M
 
-## Getting Started
+Web alojada actualmente en http://asrob-uc3m.github.io
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/1-col-portfolio/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio.git`
-* Fork the repo
+# Editar la web
+## Configurando la información de la web
+### Configuración básica
 
-## Usage
+El archivo `_config.yml` contiene los parámateros básicos de configuración de la
+web, así como otros parámetros avanzados.
 
-### Beginners
+El apartado `society` contiene la información básica sobre la asociación:
 
-After downloading the template, simply edit the `index.html` and `css/1-col-portfolio.css` file to make changes. You can ignore, and even delete, the following files used to create a development environment for more advanced developers: `.gitignore`, `gulpfile.js`, `package.json`
+ * `name`: nombre completo de la asociación
+ * `short_name`: nombre corto o siglas de la asociación
+ * `email`: email de contacto
 
-### Advanced (Development Environment with npm and Gulp)
+### Configuración de Redes Sociales
+El apartado `society.social` contiene la información sobre las distintas redes
+sociales de la asociación. En él se pueden eliminar o añadir nuevas redes sociales.
 
-This template has a Gulp development environment built-in. In order to use it, simply run `npm install` first, and then you will be able to use the `gulp dev` task. This task runs browserSync and is set up to live reload the browser window when changes are made to the HTML or CSS. Feel free to build on this gulpfile for more advanced development needs.
+Una red social tiene los siguientes parámetros:
 
-## Bugs and Issues
+ * `id`: identificador de la red social (google-plus, flickr, dribbble, pinterest,
+    instagram, tumblr, linkedin, etc). Para el correo usaremos `envelope`.
+ * `name`: nombre de la red social.
+ * `url`: url al perfil de la asociación en dicha red social.
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/1-col-portfolio/).
 
-## Creator
+### Configuración de Responsables
+El apartado `society.management` contiene la información sobre los distintos
+responsables de la asociación. En él se pueden modificar los responsables. Cada
+responsable tiene un nombre, un correo de contacto y un link a una web de su
+elección asociados.
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+El apartado `society.management.social` corresponde a los Responsables de Redes
+Sociales, y puede contener más de una entrada.
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+### Configuración de la sección *Enlaces importantes*
+El apartado `more_info` contiene la información de la sección *Enlaces importantes*
+de la web. En caso de que hubiese que añadir, eliminar o modificar algún enlace,
+basta con editar esta sección. Cada enlace tiene los siguientes parámetros:
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+ * `title`: título del enlace.
+ * `description`: texto que acompaña al enlace.
+ * `url`: url del enlace.
+ * `picture`: imagen que acompaña al enlace. Lo idea es que esta imagen sea de
+ 318x180px para mantener la estética de la web.
 
-## Copyright and License
+### Configuración de la sección *Más enlaces importantes*
+El apartado `other_info` contiene la información de la sección *Más enlaces importantes*
+de la web. En caso de que hubiese que añadir, eliminar o modificar algún enlace,
+basta con editar esta sección. Cada enlace tiene los siguientes parámetros:
 
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/gh-pages/LICENSE) license.
+ * `name`: título del enlace.
+ * `url`: url del enlace.
+
+### Configuración de colaboradores
+El apartado `collaborations` contiene la información de las entidades que colaboran
+con la asociación. En caso de que hubiese que añadir, eliminar o modificar algún
+colaborador, basta con editar esta sección. Cada colaborador tiene los siguientes parámetros:
+
+ * `name`: nombre del colaborador.
+ * `url`: enlace a la web del colaborador.
+ * `picture`: logo del colaborador.
