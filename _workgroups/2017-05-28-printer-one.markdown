@@ -13,7 +13,7 @@ next_meeting:  Las reuniones volverán en Septiembre
 layout: workgroup
 ---
 
-# Quiénes somos
+## Quiénes somos
 
 Somos un grupo de estudiantes de la Universidad Carlos III de Madrid interesados en el mundo de la impresión 3D.
 
@@ -26,7 +26,7 @@ Objetivos:
 
 En este grupo aprendemos cosas nuevas cada día.
 
-# Qué hacemos
+## Qué hacemos
 
 Nos reunimos semanalmente. De momento no tenemos un horario ni un día fijo de reunión, nos organizamos por Doodle.
 
@@ -36,7 +36,7 @@ Puedes consultar un historial de nuestra misión en nuestro [Cuaderno de Bitáco
 
 También tenemos un [Repositorio](https://github.com/asrob-uc3m/impresoras-asrob) en GitHub con todo el código que desarrollamos en nuestras reuniones.
 
-# Enlaces útiles
+## Enlaces útiles
  * [Gestión de Impresoras 3D disponibles en la asociación](http://asrob.uc3m.es/printers/)
  * [Antiguo grupo de impresoras 3D](http://asrob.uc3m.es/index.php/Impresora-3D_Open_Source)
  * [Repositorio en GitHub](https://github.com/asrob-uc3m/impresoras-asrob)
