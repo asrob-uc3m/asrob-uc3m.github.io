@@ -117,6 +117,7 @@ more_info:
     description: ¡Nuestro código es libre! Puedes echarle un ojo aquí para aprender, contribuir o simplemente curiosear.
     url: https://github.com/asrob-uc3m
     picture: /img/repos.png
+
   - title: Wiki
     description: Ahora tenemos esta web, pero mucha de la documentación de ASROB sigue estando en la wiki.
     url: http://asrob.uc3m.es/index.php/Main_Page
@@ -149,7 +150,7 @@ collaborations:
 # Collections
 collections:
     news:
-        my_title: News
+        title: Noticias
     workgroups:
         title: Grupos de Trabajo Activos
         output: true
