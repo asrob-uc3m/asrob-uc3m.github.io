@@ -1,0 +1,6 @@
+---
+type: news
+title: ¡Nueva web!
+description: Estrenamos nueva web
+picture: img/shialebeouf.gif
+---

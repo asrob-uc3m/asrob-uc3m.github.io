@@ -1,0 +1,15 @@
+<section id="other">
+      <div class="container mb-4">
+         <!-- Page Heading -->
+            <h1 class="my-4 text-center">Más enlaces importantes</h1>
+        <div class="row">
+            <div class="col-md-12 text-center">
+            {% for entry in site.other_links %}
+            <a href="{{entry.url}}" class="btn btn-primary" class="card-link">{{entry.name}}</a>
+            {% endfor %}
+            </div>
+        </div>
+      </div>
+      <hr>
+      <!-- /.container -->
+    </section>

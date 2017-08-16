@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+    <body id="page-top" class="index">
+
+      {% include navigation.html %}
+      {% include header.html %}
+
+      <!-- Page Content -->
+      <div class="container">
+
+        {% include page_heading.html title="Premios y trofeos" subtitle="Listado de premios condedidos a ASROB" %}
+
+        <div class="row">
+          <div class="col">
+            <p class="text-justify">Esta página muestra los trofeos y premios conseguidos por miembros de ASROB.</p>
+          </div>
+        </div>
+
+        <div class="row my-4">
+          <div class="col">
+            <div class="list-group">
+              {% for award in site.awards %}
+              <div href="{{award.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-4"><strong>{{award.name}}</strong></h5>
+                  <small>Fecha: {{award.date| date: "%d-%m-%y" }}</small>
+                </div>
+                <p class="mb-1">{{award.content}}</p>
+                <p><strong>Puesto:</strong> {{award.place}}</p>
+                <p><strong>Participantes:</strong>
+                <ul>
+                  {% for member in award.team %}
+                  {%if member.link %}
+                  <li><a href="{{member.link}}">{{member.name}}</a></li>
+                  {% else %}
+                  <li>{{member.name}}</li>
+                  {% endif %}
+                  {% endfor %}
+                </ul>
+                </p>
+                <a class="btn btn-primary" href="{{award.link}}">Más info</a>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+      </div>
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

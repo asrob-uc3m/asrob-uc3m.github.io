@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+    <body id="page-top" class="index">
+
+    {% include navigation.html %}
+    {% include header.html %}
+
+    <!-- Page Content -->
+    <div class="container">
+
+      {% include page_heading.html title=page.name subtitle=page.subtitle %}
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+            <div class="col">
+                <img class="img-fluid img-round pull-left mb-2 mr-5" src="{{page.picture_full}}" alt="">
+                <div class="text-justify">
+                  {{page.content}}
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+      {% if page.next_meeting %}
+      {% include alert_next_meeting.html name=page.name date=page.next_meeting %}
+      {% endif %}
+      {% include alert_manager_info.html group_name=page.name name=page.manager email=page.manager_email %}
+      {% if page.url_telegram %}
+      {% include alert_telegram.html link=page.url_telegram %}
+      {% endif %}
+
+      {% assign workgroup_projects = site.projects | where: "parent", page.workgroup_id %}
+      {% if workgroup_projects.size > 0  %}
+      <div class="container">
+            <section id="moreinfo">
+
+              <h1 class="my-4">Proyectos</h1>
+                {% for project in workgroup_projects %}
+                {% assign var = forloop.index0 | modulo:3 %}
+                {% if var == 0 %}
+                <div class="row{% if forloop.index0 != 0 %} mt-3{% endif %}">
+                  <div class="card-deck">
+                {% endif %}
+                <div class="col-md-4">
+                    <div class="card h-100">
+                      <img class="card-img-top" src="{{project.picture}}" alt="{{entry.title}}">
+                      <div class="card-block">
+                        <h3 class="card-title">{{project.title}}</h3>
+                        <p class="card-text text-justify">{{project.description}}</p>
+                        <p class="card-text"><small class="text-muted">Estado: {{project.status}}</small></p>
+                      </div>
+                      <div class="align-bottom text-center mb-4">
+                        <a href="{{project.url}}" class="btn btn-primary">Ir &rarr;</a>
+                      </div>
+                    </div>
+                </div>
+                {% if var == 2 or forloop.last %}
+                  </div>
+                </div>
+                <!-- /.row -->
+                {% endif %}
+                {% endfor %}
+                <div class=" class="my-4"">
+                  <hr>
+                </div>
+            </section>
+      </div>
+      <!-- /.container -->
+      {% endif %}
+
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

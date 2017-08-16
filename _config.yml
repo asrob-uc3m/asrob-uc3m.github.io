@@ -1,60 +1,162 @@
----
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://example.com" # the base hostname & protocol for your site
+repo_url: "https://github.com/asrob-uc3m/asrob-uc3m.github.io"
 
-port: 4000
-host: 0.0.0.0
-safe: false
-
-
-### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
-permalink: / ## disables post output
-timezone: null
-lsi: false
+# Build settings
 markdown: kramdown
-highlighter: rouge
+theme: minima
 
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
 
-### content configuration ###
-title:       "ASROB"
-keywords:    "asrob, robots, uavs, myod, robot devastation, robotics"
-description: "Sitio web de la Asociación de Robótica UC3M (ASROB)"
-source_link: "/"
-favicon:     "img/favicon.ico"
-touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: 
-permalink : /:year
+# Society info
+society:
+  name: Asociación de Robótica UC3M
+  short_name: ASROB
+  email: asrob-uc3m@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  # (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+  social:
+      - id: github
+        name: GitHub
+        url: https://github.com/asrob-uc3m
+      - id: youtube
+        name: YouTube
+        url: http://www.youtube.com/user/asrobuc3m/featured
+      - id: twitter
+        name: Twitter
+        url: http://twitter.com/asrob_uc3m
+      - id: facebook
+        name: Facebook
+        url: http://www.facebook.com/pages/Asociacion-de-Robotica-UC3M/170784706272131
+      - id: linkedin
+        name: Linkedin
+        url: https://www.linkedin.com/in/asrobuc3m
+      - id: google-plus
+        name: Google+
+        url: http://plus.google.com/u/0/117320353227938266035
+      - id: envelope
+        name: Email
+        url: mailto:asrob-uc3m@gmail.com
 
-### template colors, used site-wide via css ###
-colors:
-  black:     '#454545' #111111
-  white:     '#f8f8f8'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#c869bf'
-  orange:    '#fab125'
-  turquoise: '#0fbfcf'
-  asrob1:    '#f8f8f8'
-  asrob2:    '#c869bf'
-  red:       '#891717'
-  gray:      '#cccccc'
+  management:
+      president:
+          name: Juan G. Victores
+          link: http://roboticslab.uc3m.es/roboticslab/people/jg-victores
+          email: jcgvicto[at]gmail[dot]com
+      secretary:
+          name: David Estevez
+          link: http://destevez.me
+          email: david[dot]estevez[dot]fdez[at]gmail[dot]com
+      treasurer:
+          name: Juan G. Victores
+          link: http://roboticslab.uc3m.es/roboticslab/people/jg-victores
+          email: jcgvicto[at]gmail[dot]com
+      printers:
+          name: Jorge Ramirez
+          link: https://github.com/jorgercobo
+          email: jorgerc[dot]21[at]gmail[dot]com
+      mails:
+          name: Enrique Rodicio (Kike)
+          link: http://asrob.uc3m.es/index.php?title=User:Kfrodicio
+          email: kfrodicio[at]gmail[dot]com
+      social:
+        - name: Andres Prieto
+          link: http://asrob.uc3m.es/index.php?title=User:Aprieto
+          email: andresprietoyanes[at]gmail[dot]com
+        - name: Enrique Rodicio (Kike)
+          link: http://asrob.uc3m.es/index.php?title=User:Kfrodicio
+          email: kfrodicio[at]gmail[dot]com
 
-kramdown:
-  auto_ids:  false
+# More info: these are the links to the main sections of the website
+more_info:
+  - title: Antiguos proyectos
+    description: Proyectos que se llevaron a cabo en ASROB, pero que actualmente no cuentan con un Grupo de Trabajo Activo.
+    url: http://asrob.uc3m.es/index.php/Antiguos_Proyectos
+    picture: /img/old_projects.png
 
+  - title: Gestión de impresoras 3D
+    description: En ASROB disponemos de varias impresoras 3D. Entérate aquí sobre cómo usarlas.
+    url: http://asrob.uc3m.es/printers
+    picture: /img/printers.png
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: youtube
-    url: https://www.youtube.com/user/asrobuc3m/
-  - title: twitter
-    url: https://twitter.com/asrob_uc3m
-  - title: facebook
-    url: http://www.facebook.com/pages/Asociacion-de-Robotica-UC3M/170784706272131
-  - title: google-plus 
-    url: https://plus.google.com/117320353227938266035
-  - title: envelope
-    url : mailto:asrobuc3m@gmail.com 
-  - title: github
-    url: http://github.com/asrob-uc3m
-  - title: linkedin
-    url: https://www.linkedin.com/in/asrobuc3m
+  - title: Miembros
+    description: Aquí se encuentra el Listado de Socios con Puesto de Responsabilidad, así como los Antiguos Miembros y el Hall of Fame. Para un listado de socios actuales, revisa las páginas de cada grupo activo.
+    url: /members.html
+    picture: /img/members.png
+
+  - title: Tutoriales
+    description: Recopilación de tutoriales y materiales útiles sobre los programas y herramientas que usamos en ASROB.
+    url: http://asrob.uc3m.es/index.php/Tutoriales
+    picture: /img/tutorials.png
+
+  - title: Repositorios
+    description: ¡Nuestro código es libre! Puedes echarle un ojo aquí para aprender, contribuir o simplemente curiosear.
+    url: https://github.com/asrob-uc3m
+    picture: /img/repos.png
+
+  - title: Wiki
+    description: Ahora tenemos esta web, pero mucha de la documentación de ASROB sigue estando en la wiki.
+    url: http://asrob.uc3m.es/index.php/Main_Page
+    picture: /img/wiki.png
+
+# other links: links to other useful resources
+other_links:
+  - name: Inventario
+    url: http://asrob.uc3m.es/partkeepr-0.79/web/
+  - name: Contributors
+    url: http://asrob.uc3m.es/contributors
+  - name: Trophies & Awards
+    url: /awards.html
+
+# collaborations: people that supports us
+collaborations:
+  - name: RoboticsLab
+    url: http://www.uc3m.es/
+    picture: http://asrob.uc3m.es/images/thumb/1/1b/Roboticslab_transpa.png/60px-Roboticslab_transpa.png
+  - name: UC3M
+    url: http://roboticslab.uc3m.es/roboticslab
+    picture: http://asrob.uc3m.es/images/thumb/0/0a/Uc3m_transpa.png/200px-Uc3m_transpa.png
+  - name: IEEE
+    url: http://www.ieeespain.org/?q=ramas
+    picture: http://asrob.uc3m.es/images/thumb/e/e5/IEEE_transpa.png/150px-IEEE_transpa.png
+  - name: Robocity2030
+    url: http://www.robocity2030.org/branches/
+    picture: http://asrob.uc3m.es/images/thumb/9/93/Robocity2030_transpa.png/250px-Robocity2030_transpa.png
+
+# Collections
+collections:
+    news:
+        title: Noticias
+    workgroups:
+        title: Grupos de Trabajo Activos
+        output: true
+    projects:
+        title: Proyectos
+        output: true
+    awards:
+        title: Premios y trofeos
+        output: false

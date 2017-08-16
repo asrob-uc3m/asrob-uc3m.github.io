@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+    <body id="page-top" class="index">
+
+      {% include navigation.html %}
+      {% include header.html %}
+
+      <!-- Page Content -->
+      <div class="container">
+
+        {% include page_heading.html title=page.name subtitle=page.subtitle %}
+
+        <!-- Feature picture -->
+        <div class="row">
+          <div class="col text-center">
+            <img class="img-fluid rounded mb-4" src="{{page.picture_full}}" alt="Feature picture">
+          </div>
+        </div>
+
+        <!-- Status and links -->
+        <div class="row my-2">
+          <div class="col-md-3 text-left">
+            {% if page.status %}
+            {% assign status = 'success' | page.status == "activo" %}
+            {% assign status = 'default' | page.status == "terminado" %}
+            {% assign status = 'info' | page.status == "proyecto futuro" %}
+            <h4><strong>Estado:</strong> <span class="badge badge-{{status}}">{{page.status}}</span></h4>
+            {% endif %}
+          </div>
+          <div class="col-md-4"></div>
+          <div class="col-md-5 text-right">
+          {% if page.url_website or page.url_github or page.url_wiki %}
+              <h4><strong>Más info:</strong>
+                {% if page.url_website %}
+                <a class="btn btn-sml btn-secondary"href="{{page.url_website}}">Website</a>
+                {% endif %}
+                {% if page.url_github %}
+                <a class="btn btn-sml btn-secondary"href="{{page.url_github}}">Github</a>
+                {% endif %}
+                {% if page.url_wiki %}
+                <a class="btn btn-sml btn-secondary"href="{{page.url_wiki}}">Wiki</a>
+                {% endif %}
+              </h4>
+          {% endif %}
+          </div>
+        </div>
+
+        <!-- Contents -->
+        <div class="row">
+          <div class="col text-justify">
+            {{page.content}}
+          </div>
+        </div>
+
+        <!-- Back to project link -->
+        <div class="row">
+          <div class="col text-right mb-4">
+            {% assign back_link = site.workgroups | where: "workgroup_id", page.parent %}
+            <a class="btn btn-sml btn-secondary"href="{{back_link.first.url}}">&larr; Volver al grupo de trabajo</a>
+          </div>
+        </div>
+
+      </div>
+
+      {% include footer.html %}
+      {% include js.html %}
+
+      </body>
+  </html>
