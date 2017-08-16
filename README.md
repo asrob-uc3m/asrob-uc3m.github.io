@@ -1,7 +1,7 @@
 Asociación de Robótica (ASROB) UC3M
 ------
 
-Sito web de la Asociación de Robótica (ASROB) UC3M
+Sitio web de la Asociación de Robótica (ASROB) UC3M
 
 Web alojada actualmente en http://asrob-uc3m.github.io
 
@@ -172,3 +172,10 @@ para modificar la información del premio:
 La descripción el premio o competición, que aparecerá en la página de premios y
 trofeos, se incluye como texto en formato markdown después de la zona reservada
 a los parámetros.
+
+# Atribuciones
+Esta web se inspiró en las siguientes plantillas:
+
+ * [1 Col Portfolio](https://blackrockdigital.github.io/startbootstrap-1-col-portfolio/)
+ * [Portfolio Item](https://blackrockdigital.github.io/startbootstrap-portfolio-item/)
+ * [One Page Wonder](https://startbootstrap.com/template-overviews/one-page-wonder/)
