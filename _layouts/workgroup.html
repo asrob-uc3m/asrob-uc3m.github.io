@@ -25,9 +25,14 @@
         </div>
       </div>
 
+
+      {% if page.next_meeting %}
       {% include alert_next_meeting.html name=page.name date=page.next_meeting %}
+      {% endif %}
       {% include alert_manager_info.html group_name=page.name name=page.manager email=page.manager_email %}
-      {% include alert_telegram.html link="#" %}
+      {% if page.url_telegram %}
+      {% include alert_telegram.html link=page.url_telegram %}
+      {% endif %}
 
       {% assign workgroup_projects = site.projects | where: "parent", page.workgroup_id %}
       {% if workgroup_projects.size > 0  %}
