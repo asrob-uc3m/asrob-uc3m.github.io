@@ -5,6 +5,8 @@ Sito web de la Asociación de Robótica (ASROB) UC3M
 
 Web alojada actualmente en http://asrob-uc3m.github.io
 
+Author: [David Estevez](https://github.com/David-Estevez)
+
 # Cómo editar la web
 Esta sección contiene la información necesaria para añadir o modificar contenidos
 de la web.
@@ -103,13 +105,40 @@ para modificar  la información del *grupo de trabajo activo*:
   * `manager`: nombre del responsable del *grupo de trabajo activo*.
   * `manager_email`: email del responsable del *grupo de trabajo activo*.
   * `next_meeting`: información sobre la próxima reunión del *grupo de trabajo
-  activo*. Por ejemplo: 'Miércoles 4 a las 17h en aula 1.0.B06' o "Todos los Martes de
-  15:00 a 16:00 en 1.0.B06".
+  activo*. Por ejemplo: "Miércoles 4 a las 17h en aula 1.0.B06" o "Todos los
+  Martes de 15:00 a 16:00 en 1.0.B06".
 
 La descripción completa del grupo, que aparecerá en la página de dicho grupo, se
-incluye como texto en formato mardown después de la zona reservada a los parámetros.
+incluye como texto en formato markdown después de la zona reservada a los parámetros.
 
 ## Añadir o modificar *proyectos*
+La información sobre los *proyectos* se almacena en la carpeta
+`_projects` en archivos markdown. A cada proyecto le corresponde un
+archivo. Dentro de cada archivo encontramos una serie de parámetros que modificar
+para modificar la información del *proyecto*:
+
+ * `type`: tipo de archivo (**no modificar**, debe ser `project`).
+ * `layout`: plantilla que se le aplicará a este archivo (**no modificar**, debe
+  ser `project`).
+ * `parent`: *grupo de trabajo activo* al que pertenece el proyecto. El valor
+  debe coincidir con el valor del `workgroup_id` de algún *grupo de trabajo activo*.
+ * `name`: nombre del proyecto.
+ * `subtitle`: pequeña descripción del grupo (una línea máximo).
+ * `description`: descripción corta (un párrafo) que aparecerá en la página del
+  *grupo de trabajo activo*.
+ * `url_wiki`: enlace a la página correpondiente al *proyecto* en la wiki. [opcional]
+ * `url_github`: enlace al repositorio del *proyecto* en GitHub. [opcional]
+ * `picture`: thumbnail que aparecerá en la página del *grupo de trabajo activo*.
+  Lo ideal es que esta imagen sea de **318x180px** para mantener la estética de
+  la web.
+ * `picture_full`: imagen que aparecerá en la página de dicho proyecto. Lo ideal
+  es que esta imagen sea de **900x300px** para mantener la estética de la web.
+ * `status`: estado del proyecto. Los valores posibles son: "activo", "terminado"
+ o "proyecto futuro".
+
+ La descripción completa del proytecto, que aparecerá en la página de dicho
+ proyecto, se incluye como texto en formato markdown después de la zona reservada
+ a los parámetros.
 
 ## Añadir o modificar *noticias*
 La información sobre los *noticias* se almacena en la carpeta
@@ -141,5 +170,5 @@ para modificar la información del premio:
     * `link`: link  a una web del miembro [opcional].
 
 La descripción el premio o competición, que aparecerá en la página de premios y
-trofeos, se incluye como texto en formato mardown después de la zona reservada 
+trofeos, se incluye como texto en formato markdown después de la zona reservada
 a los parámetros.
