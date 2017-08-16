@@ -1,12 +1,6 @@
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://example.com" # the base hostname & protocol for your site
-
+repo_url: "https://github.com/asrob-uc3m/asrob-uc3m.github.io"
 
 # Build settings
 markdown: kramdown
@@ -42,7 +36,7 @@ exclude:
 society:
   name: Asociación de Robótica UC3M
   short_name: ASROB
-  email:
+  email: asrob-uc3m@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   # (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
   social:
