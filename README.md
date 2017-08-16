@@ -106,7 +106,7 @@ para modificar  la información del *grupo de trabajo activo*:
   * `manager_email`: email del responsable del *grupo de trabajo activo*.
   * `next_meeting`: información sobre la próxima reunión del *grupo de trabajo
   activo*. Por ejemplo: "Miércoles 4 a las 17h en aula 1.0.B06" o "Todos los
-  Martes de 15:00 a 16:00 en 1.0.B06".
+  Martes de 15:00 a 16:00 en 1.0.B06" [opcional].
 
 La descripción completa del grupo, que aparecerá en la página de dicho grupo, se
 incluye como texto en formato markdown después de la zona reservada a los parámetros.
@@ -126,7 +126,7 @@ para modificar la información del *proyecto*:
  * `subtitle`: pequeña descripción del grupo (una línea máximo).
  * `description`: descripción corta (un párrafo) que aparecerá en la página del
   *grupo de trabajo activo*.
- * `url_wiki`: enlace a la página correpondiente al *proyecto* en la wiki. [opcional]
+ * `url_wiki`: enlace a la página correspondiente al *proyecto* en la wiki. [opcional]
  * `url_github`: enlace al repositorio del *proyecto* en GitHub. [opcional]
  * `picture`: thumbnail que aparecerá en la página del *grupo de trabajo activo*.
   Lo ideal es que esta imagen sea de **318x180px** para mantener la estética de
@@ -136,7 +136,7 @@ para modificar la información del *proyecto*:
  * `status`: estado del proyecto. Los valores posibles son: "activo", "terminado"
  o "proyecto futuro".
 
- La descripción completa del proytecto, que aparecerá en la página de dicho
+ La descripción completa del proyecto, que aparecerá en la página de dicho
  proyecto, se incluye como texto en formato markdown después de la zona reservada
  a los parámetros.
 
