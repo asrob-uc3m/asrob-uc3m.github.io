@@ -101,7 +101,7 @@ para modificar  la información del *grupo de trabajo activo*:
   * `url_telegram,`: enlace al grupo de telegram del *grupo de trabajo activo*
   [opcional].
   * `picture`: thumbnail que aparecerá en la portada de la web. Lo ideal es que
-  esta imagen sea de **318x180px** para mantener la estética de la web.
+  esta imagen sea de **700x300px** para mantener la estética de la web.
   * `picture_full`: imagen que aparecerá en la página de dicho grupo. Lo ideal es
   que esta imagen sea de **750x500px** para mantener la estética de la web.
   * `manager`: nombre del responsable del *grupo de trabajo activo*.
