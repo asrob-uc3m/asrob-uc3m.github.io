@@ -10,7 +10,7 @@ picture: /img/game.png
 picture_full: /img/game-full.jpg
 manager: David Estevez
 manager_email: david.estevez.fdez@gmail.com
-next_meeting:  Las reuniones volverán en Septiembre
+next_meeting:  Martes, 19/09/2017 de 16:00 a 18:00 en 1.0.B06
 layout: workgroup
 ---
 
