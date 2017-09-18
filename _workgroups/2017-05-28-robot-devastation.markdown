@@ -9,7 +9,7 @@ picture: /img/rd.png
 picture_full: /img/rd-full.jpg
 manager: David Estevez
 manager_email: david.estevez.fdez@gmail.com
-next_meeting:  Las reuniones volverán en Septiembre
+next_meeting:  Miércoles de 17h a 19h en 1.0.B06 
 layout: workgroup
 ---
 
