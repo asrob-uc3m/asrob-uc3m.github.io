@@ -70,14 +70,16 @@
           <div class="col">
             <h2>Responsable(s) de Redes Sociales</h2>
             <div class="list-group">
-              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              {% for member in site.society.management.social %}
+              <a href="{{member.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1"><strong>Responsable(s) de Redes Sociales</strong></h5>
+                  <h5 class="mb-1"><strong>Responsable de Redes Sociales</strong></h5>
                   <!--<small>3 days ago</small>-->
                 </div>
-                <p class="mb-1">{{site.society.management.president.name}}</p>
-                <small class="text-muted">Email: {{site.society.management.president.email}}</small>
+                <p class="mb-1">{{member.name}}</p>
+                <small class="text-muted">Email: {{member.email}}</small>
               </a>
+              {% endfor %}
             </div>
           </div>
         </div>
