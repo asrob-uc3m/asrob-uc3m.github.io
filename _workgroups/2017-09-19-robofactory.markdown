@@ -9,7 +9,7 @@ picture: /img/robofactory.jpg
 picture_full: /img/robofactory-full.jpg
 manager: David Estevez
 manager_email: david.estevez.fdez@gmail.com
-next_meeting:  Todavía por determinar
+next_meeting:  La reunión de la semana del 25 ha sido pospuesta. Enlace para apuntarse a la próxima reunión coming soon.
 layout: workgroup
 ---
 
