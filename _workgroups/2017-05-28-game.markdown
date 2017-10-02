@@ -10,7 +10,7 @@ picture: /img/game.png
 picture_full: /img/game-full.jpg
 manager: David Estevez
 manager_email: david.estevez.fdez@gmail.com
-next_meeting:  Martes, 03/10/2017 de 17:00 a 18:00 en 1.0.B06 (Apúntate a la próxima reunión en [http://doodle.com/poll/m7siwpifygs4vti6 este enlace])
+next_meeting:  Martes, 03/10/2017 de 17:00 a 18:00 en 1.0.B06 (Apúntate a la próxima reunión en(este enlace)[http://doodle.com/poll/m7siwpifygs4vti6])
 layout: workgroup
 ---
 
