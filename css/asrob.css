@@ -14,6 +14,13 @@ div.anchor {
     visibility: hidden;
 }
 
+img {
+  display: block;
+  max-height:500px;
+  width: auto;
+  height: auto;
+}
+
 .carousel-caption {
   right: 20%;
   bottom: 30px;
@@ -21,7 +28,6 @@ div.anchor {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
 
 .carousel-indicators {
   bottom: 0px;
@@ -32,6 +38,10 @@ div.anchor {
         font-size: 11px;
         bottom: 2px;
         padding-bottom: 5px;
+    }
+
+    img {
+      max-height:300px;
     }
 }
 
