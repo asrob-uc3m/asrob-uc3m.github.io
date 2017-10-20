@@ -4,6 +4,7 @@
 
 body {
   padding-top: 0px;
+  font-size: 0.8rem;
 }
 
 div.anchor {
@@ -11,6 +12,13 @@ div.anchor {
     position: relative;
     top: -70px;
     visibility: hidden;
+}
+
+img {
+  display: block;
+  max-height:500px;
+  width: auto;
+  height: auto;
 }
 
 .carousel-caption {
@@ -21,7 +29,6 @@ div.anchor {
   padding-bottom: 10px;
 }
 
-
 .carousel-indicators {
   bottom: 0px;
 }
@@ -31,6 +38,10 @@ div.anchor {
         font-size: 11px;
         bottom: 2px;
         padding-bottom: 5px;
+    }
+
+    img {
+      max-height:300px;
     }
 }
 
