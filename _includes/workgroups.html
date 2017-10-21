@@ -23,6 +23,11 @@
                     <strong>Próxima reunión:</strong> {{workgroup.next_meeting}}
                   </div>
                   {% endif %}
+                  {% if workgroup.next_meeting_doodle %}
+                  <div class="alert alert-success" role="alert">
+                    Elige el horario de la siguente reunión en este <a href="{{workgroup.next_meeting_doodle}}">Doodle</a>
+                  </div>
+                  {% endif %}
                   <div class="text-center">
                     <a class="btn btn-primary" href="{{workgroup.url}}">Más Info</a>
                   </div>
@@ -39,6 +44,11 @@
                   {% if workgroup.next_meeting %}
                   <div class="alert alert-info" role="alert">
                     <strong>Próxima reunión:</strong> {{workgroup.next_meeting}}
+                  </div>
+                  {% endif %}
+                  {% if workgroup.next_meeting_doodle %}
+                  <div class="alert alert-success" role="alert">
+                    Elige el horario de la siguente reunión en este <a href="{{workgroup.next_meeting_doodle}}">Doodle</a>
                   </div>
                   {% endif %}
                   <div class="text-center">
