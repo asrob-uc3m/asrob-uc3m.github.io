@@ -9,7 +9,7 @@ picture: /img/printer_one.png
 picture_full: /img/printer_one-full.jpg
 manager: Manuel Peña
 manager_email: mpf[dot]manu[at]gmail[dot]com
-next_meeting: Martes, 17/10/2017 de 13:00 a 15:00 en 1.0.B06
+next_meeting: Lunes, 24/10/2017 de 15:00 a 17:00 en 1.0.B06 <br> Martes, 25/10/2017 de 19:00 a 21:00 en 1.0.B06
 layout: workgroup
 ---
 
