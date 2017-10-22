@@ -9,7 +9,7 @@ picture: /img/robofactory.jpg
 picture_full: /img/robofactory-full.jpg
 manager: David Estevez
 manager_email: david.estevez.fdez@gmail.com
-next_meeting:  Martes, 17/10/2017 de 16:00 a 17:00 en 1.0.B06
+next_meeting:  Martes, 24/10/2017 de 15:00 a 17:00 en 1.0.B06
 layout: workgroup
 ---
 
