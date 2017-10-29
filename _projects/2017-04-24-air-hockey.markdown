@@ -16,7 +16,7 @@ La máquina AIr Hockey de G.A.M.E. será una mesa de Air Hockey normal, con aguj
 
 La mitad de la mesa será el terreno de juego del jugador humano, y la otra mitad, el del robot. El robot consistirá en unos perfiles de aluminio que se moverán con correas y poleas, para sujetar el golpeador. Sus actuadores serán unos motores y controladora de impresora 3D. El robot dispondrá de una cámara conectada a un ordenador para procesar lo que la cámara ve.
 
-Sigue el progreso del grupo en su [Cuaderno de Bitácora]().
+Sigue el progreso del grupo en su [Cuaderno de Bitácora](https://github.com/asrob-uc3m/air-hockey/wiki/Cuaderno-de-Bit%C3%A1cora).
 
 ## Grupos de trabajo
 
