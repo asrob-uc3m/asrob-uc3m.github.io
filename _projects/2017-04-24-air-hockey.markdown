@@ -16,10 +16,12 @@ La máquina AIr Hockey de G.A.M.E. será una mesa de Air Hockey normal, con aguj
 
 La mitad de la mesa será el terreno de juego del jugador humano, y la otra mitad, el del robot. El robot consistirá en unos perfiles de aluminio que se moverán con correas y poleas, para sujetar el golpeador. Sus actuadores serán unos motores y controladora de impresora 3D. El robot dispondrá de una cámara conectada a un ordenador para procesar lo que la cámara ve.
 
+Sigue el progreso del grupo en su [Cuaderno de Bitácora]().
+
 ## Grupos de trabajo
 
-* Diseño sistema mecánico (Juan)
-* Computer Vision (Alejandro)
+* Diseño sistema mecánico (David y JorFru)
+* Computer Vision (David y Jorge)
 * AI (Kike)
 
 ## Materiales
@@ -52,13 +54,3 @@ La mitad de la mesa será el terreno de juego del jugador humano, y la otra mita
     [genial robot de jjrobots](http://www.jjrobots.com/air-hockey-robot-evo/)
 *   CoreXY: <http://www.thingiverse.com/thing:1654578>
 
-## Reuniones
-
-* **16/05/2017**: Éxito rotundo de asistencia. Gestión de la compra del resto del
-material. Búsqueda de frameworks para AI y visión por computador.
-* **09/05/2017**: En esta reunión hicimos el presupuesto definitivo de la recreativa y
-creamos el repositorio.
-* **04/05/2017**: En esta reunión revisamos la documentación de Air Hockeys robotizados
-existentes, hicimos un BOM aproximado y definimos los grupos de trabajo.
-* **24/04/2017**: En esta reunión definimos los objetivos del proyecto y empezamos a
-buscar máquinas de air hockey económicas.
