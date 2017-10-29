@@ -17,3 +17,5 @@ layout: workgroup
 RoboFactory es la rama de ASROB que existe por y para fabricar robots.
 
 ¿Quieres montar un robot con ruedas? ¿Te gustaría fabricar un hexápodo? ¿O te molan más los siguelíneas y velocistas? Tu imaginación (y nuestro dinero) son el límite en este grupo, en el que construiremos todo tipo de robots que podrán ser utilizados depués en competiciones, combates, y en el juego estrella de ASROB, Robot Devastation.
+
+Sigue el progreso de este grupo en su [Cuaderno de Bitácora](http://asrob.uc3m.es/index.php/RoboFactory:_Cuaderno_de_Bit%C3%A1cora)
