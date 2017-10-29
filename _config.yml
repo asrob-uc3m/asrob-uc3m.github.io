@@ -160,3 +160,5 @@ collections:
     awards:
         title: Premios y trofeos
         output: false
+    redirects:
+        output: true

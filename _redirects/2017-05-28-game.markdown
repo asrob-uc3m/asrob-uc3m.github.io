@@ -1,0 +1,4 @@
+---
+workgroup_id: game
+layout: redirect_to_doodle
+---
