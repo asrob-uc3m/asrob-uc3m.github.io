@@ -7,9 +7,9 @@ url_wiki: http://asrob.uc3m.es/index.php/Robot_Devastation
 url_telegram: https://telegram.me/joinchat/ADT1EAjJk_gwAb9GNkqcpA
 picture: /img/rd.png
 picture_full: /img/rd-full.jpg
-manager: David Estevez
-manager_email: david.estevez.fdez@gmail.com
-next_meeting:  Miércoles de 17h a 19h en 1.0.B06 
+manager: 
+manager_email: 
+next_meeting:  Viernes de 17h a 19h en 1.0.B06 
 layout: workgroup
 ---
 
