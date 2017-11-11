@@ -9,13 +9,13 @@ picture: /img/printer_one.png
 picture_full: /img/printer_one-full.jpg
 manager: Manuel Peña
 manager_email: mpf[dot]manu[at]gmail[dot]com
-next_meeting: Jueves, 09/11/2017 de 19:00 a 21:00 en 1.0.B06
+next_meeting_doodle: https://doodle.com/poll/2xxftnt7vtnvxisv
 layout: workgroup
 ---
 
 <!--- Swap next_meeting and next_meeting_doodle here --->
-<!---  --->
-<!--- next_meeting_doodle: https://doodle.com/poll/ba957wd27vaeapkz --->
+<!--- next_meeting: Jueves, 09/11/2017 de 19:00 a 21:00 en 1.0.B06 --->
+<!--- next_meeting_doodle: https://doodle.com/poll/2xxftnt7vtnvxisv --->
 
 ## Quiénes somos
 
