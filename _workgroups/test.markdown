@@ -1,1 +1,25 @@
-Hello world
+---
+description: "G.A.M.E son las siglas de \"Group for Arcade Machine Experimentation\"\
+  . <br> \xBFTe gustan las m\xE1quinas recreativas? \xBFAir hockey? \xBFFutbol\xED\
+  n? En esta rama mezclamos todas esas cosas con la rob\xF3tica, construyendo robots\
+  \ y software capaces de aprender a jugar a estos juegos, ya sea contra humanos o\
+  \ en juegos de un s\xF3lo jugador. Para pertenecer a este grupo no hacen falta conocimientos\
+  \ avanzados de rob\xF3tica, s\xF3lo ganas de aprender jugando."
+layout: workgroup
+manager: David Estevez
+manager_email: david.estevez.fdez@gmail.com
+name: G.A.M.E
+next_meeting: "Mi\xE9rcoles, 29/11/2017 de 15:00 a 17:00 en 1.0.B06"
+next_meeting_doodle: https://doodle.com/poll/mtq3vpfy7y554upk
+picture: /img/game.png
+picture_full: /img/game-full.jpg
+subtitle: Group for Arcade Machine Experimentation
+type: workgroup
+url_telegram: https://t.me/joinchat/AAAAAECDhw3_OD21wztvIQ
+url_wiki: http://asrob.uc3m.es/index.php/GAME
+workgroup_id: game
+---
+
+G.A.M.E son las siglas de "Group for Arcade Machine Experimentation".
+
+¿Te gustan las máquinas recreativas? ¿Air hockey? ¿Futbolín? En esta rama mezclamos todas esas cosas con la robótica, construyendo robots y software capaces de aprender a jugar a estos juegos, ya sea contra humanos o en juegos de un sólo jugador. Para pertenecer a este grupo no hacen falta conocimientos avanzados de robótica, sólo ganas de aprender jugando.
