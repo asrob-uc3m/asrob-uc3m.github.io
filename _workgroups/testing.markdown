@@ -9,7 +9,7 @@ layout: workgroup
 manager: David Estevez
 manager_email: david.estevez.fdez@gmail.com
 name: G.A.M.E
-next_meeting: "Mi\xE9rcoles, 25/12/2017 de 15:00 a 17:00 en 1.0.B06"
+next_meeting: "Mi\xE9rcoles, 29/11/2017 de 15:00 a 16:00 en 1.0.B06"
 next_meeting_doodle: https://doodle.com/poll/mtq3vpfy7y554upk
 picture: /img/game.png
 picture_full: /img/game-full.jpg
