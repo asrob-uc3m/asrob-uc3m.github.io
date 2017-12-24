@@ -42,5 +42,6 @@ También tenemos un [Repositorio](https://github.com/asrob-uc3m/impresoras-asrob
 
 ## Enlaces útiles
  * [Gestión de Impresoras 3D disponibles en la asociación](http://asrob.uc3m.es/printers/)
- * [Antiguo grupo de impresoras 3D](http://asrob.uc3m.es/index.php/Impresora-3D_Open_Source)
  * [Repositorio en GitHub](https://github.com/asrob-uc3m/impresoras-asrob)
+ * [Antiguo grupo de impresoras 3D](http://asrob.uc3m.es/index.php/Impresora-3D_Open_Source)
+ * [Antigua página de Printer One](http://asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story)
