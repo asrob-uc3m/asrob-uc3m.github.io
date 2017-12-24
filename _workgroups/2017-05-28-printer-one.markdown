@@ -36,7 +36,7 @@ Nos reunimos semanalmente. De momento no tenemos un horario ni un día fijo de r
 
 Los objetivos de las reuniones están ordenados en [este proyecto de GitHub](https://github.com/asrob-uc3m/impresoras-asrob/projects/1) y los vamos renovando semana a semana.
 
-Puedes consultar un historial de nuestra misión en nuestro [Cuaderno de Bitácora](http://asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story:_Cuaderno_de_Bitacora)
+Puedes consultar un historial de nuestra misión en nuestro [Cuaderno de Bitácora](https://github.com/asrob-uc3m/impresoras-asrob/wiki/Printer-One-A-Clone-Wars-Story.-Cuaderno-de-Bit%C3%A1cora)
 
 También tenemos un [Repositorio](https://github.com/asrob-uc3m/impresoras-asrob) en GitHub con todo el código que desarrollamos en nuestras reuniones.
 
