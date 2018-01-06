@@ -9,6 +9,7 @@ picture: /img/printer_one.png
 picture_full: /img/printer_one-full.jpg
 manager: Manuel Peña
 manager_email: mpf[dot]manu[at]gmail[dot]com
+next_meeting: Por determinar
 next_meeting_doodle: https://doodle.com/poll/6rw9cifkt4wh6ikv
 layout: workgroup
 ---
