@@ -4,7 +4,7 @@ workgroup_id: printer_one
 name: Printer One&#58; A Clone Wars Story
 description: Impresoras 3D. Olor a plástico derretido y laca. <br> Somos un grupo de estudiantes de la Universidad Carlos III de Madrid interesados en el mundo de la impresión 3D.
 url_wiki: http://asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story
-url_telegram: https://t.me/joinchat/AvkhtkN_oz3a25D8l6ZtnA
+url_telegram: https://t.me/joinchat/AvkhtkN_oz3EOU5JbSBGEA
 picture: /img/printer_one.png
 picture_full: /img/printer_one-full.jpg
 manager: Manuel Peña
