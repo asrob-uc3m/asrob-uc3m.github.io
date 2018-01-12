@@ -1,17 +1,19 @@
 ---
-type: workgroup
-workgroup_id: printer_one
+description: "Impresoras 3D. Olor a pl\xE1stico derretido y laca. <br> Somos un grupo\
+  \ de estudiantes de la Universidad Carlos III de Madrid interesados en el mundo\
+  \ de la impresi\xF3n 3D."
+layout: workgroup
+manager: "Manuel Pe\xF1a"
+manager_email: mpf[dot]manu[at]gmail[dot]com
 name: Printer One&#58; A Clone Wars Story
-description: Impresoras 3D. Olor a plástico derretido y laca. <br> Somos un grupo de estudiantes de la Universidad Carlos III de Madrid interesados en el mundo de la impresión 3D.
-url_wiki: http://asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story
-url_telegram: https://t.me/joinchat/AvkhtkN_oz3EOU5JbSBGEA
+next_meeting: Martes, 09/01/2018 de 15:00 a 19:00 en 1.0.B06
+next_meeting_doodle: https://doodle.com/poll/489sc4xfsr2egtiw
 picture: /img/printer_one.png
 picture_full: /img/printer_one-full.jpg
-manager: Manuel Peña
-manager_email: mpf[dot]manu[at]gmail[dot]com
-next_meeting: Martes, 09/01/2018 de 15:00 a 19:00 en 1.0.B06
-next_meeting_doodle: https://doodle.com/poll/6rw9cifkt4wh6ikv
-layout: workgroup
+type: workgroup
+url_telegram: https://t.me/joinchat/AvkhtkN_oz3EOU5JbSBGEA
+url_wiki: http://asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story
+workgroup_id: printer_one
 ---
 
 <!--- Model for next_meeting string here --->
