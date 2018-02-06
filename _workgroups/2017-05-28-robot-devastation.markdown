@@ -9,7 +9,7 @@ picture: /img/rd.png
 picture_full: /img/rd-full.jpg
 manager: 
 manager_email: 
-next_meeting:  Viernes de 17h a 19h en 1.0.B06 (Feb 9 -> Jueves Feb 8)
+next_meeting:  Viernes de 17h a 19h en 1.0.B06
 layout: workgroup
 ---
 
