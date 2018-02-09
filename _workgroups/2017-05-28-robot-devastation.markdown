@@ -29,7 +29,7 @@ Disponemos de manuales tanto para usuarios como para desarrolladores:
  * [Manual de desarrollador (Español)](https://asrob-uc3m.gitbooks.io/robotdevastation-developer-manual/content/es/) (~1%)
  * [Developer manual (English)](https://asrob-uc3m.gitbooks.io/robotdevastation-developer-manual/content/en/) (~99%)
 
- También disponemos de [instrucciones](https://asrob-uc3m.gitbooks.io/robotdevastation-user-manual/content/es/robots.html) para construir un robot que pueda participar en el juego.
+ También disponemos de [instrucciones](https://asrob-uc3m.gitbooks.io/robotdevastation-user-manual/content/es/robots) para construir un robot que pueda participar en el juego.
 
  El software de Robot Devastation está disponible en GitHub:
 
