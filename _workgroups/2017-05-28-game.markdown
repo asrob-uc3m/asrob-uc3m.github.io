@@ -10,7 +10,7 @@ manager: David Estevez
 manager_email: david.estevez.fdez@gmail.com
 name: G.A.M.E
 next_meeting: Jueves, 08/03/2018 de 17:00 a 19:00 en 1.0.B06
-next_meeting_doodle: https://doodle.com/poll/yhniepuvr3x484b5
+next_meeting_doodle: https://doodle.com/poll/fxy3yhxp4psb9p5z
 picture: /img/game.png
 picture_full: /img/game-full.jpg
 subtitle: Group for Arcade Machine Experimentation
