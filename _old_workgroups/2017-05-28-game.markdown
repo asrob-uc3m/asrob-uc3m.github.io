@@ -18,6 +18,7 @@ type: workgroup
 url_telegram: https://t.me/joinchat/AAAAAECDhw3_OD21wztvIQ
 url_wiki: http://asrob.uc3m.es/index.php/GAME
 workgroup_id: game
+active: false
 ---
 
 G.A.M.E son las siglas de "Group for Arcade Machine Experimentation".

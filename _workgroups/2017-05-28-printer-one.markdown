@@ -14,6 +14,7 @@ type: workgroup
 url_telegram: https://t.me/joinchat/AvkhtkN_oz3EOU5JbSBGEA
 url_wiki: http://asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story
 workgroup_id: printer_one
+active: true
 ---
 
 <!--- Model for next_meeting string here --->

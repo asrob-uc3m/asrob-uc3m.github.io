@@ -12,6 +12,7 @@ type: workgroup
 url_telegram: https://t.me/joinchat/ADT1EEQ8hCPiK1UgFCAqiw
 url_wiki: http://asrob.uc3m.es/index.php/RoboFactory
 workgroup_id: robofactory
+active: true
 ---
 
 RoboFactory es la rama de ASROB que existe por y para fabricar robots.
