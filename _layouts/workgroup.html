@@ -12,6 +12,13 @@
 
       {% include page_heading.html title=page.name subtitle=page.subtitle %}
 
+      {% unless page.active %}
+      <div class="alert alert-danger" role="alert">
+        Este grupo de trabajo no está activo en la actualidad. Ponte en contacto con algún miembro de ASROB si te gustaría
+        resucitarlo.
+      </div>
+      {% endunless %}
+
         <!-- Portfolio Item Row -->
         <div class="row">
             <div class="col">
@@ -24,10 +31,10 @@
       </div>
 
 
-      {% if page.next_meeting %}
+      {% if page.active and page.next_meeting %}
       {% include alert_next_meeting.html name=page.name date=page.next_meeting %}
       {% endif %}
-      {% if page.next_meeting_doodle %}
+      {% if page.active and page.next_meeting_doodle %}
       {% include alert_next_meeting_doodle.html link=page.next_meeting_doodle %}
       {% endif %}
       {% include alert_manager_info.html group_name=page.name name=page.manager email=page.manager_email %}
