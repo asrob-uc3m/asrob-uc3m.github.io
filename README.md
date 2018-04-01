@@ -78,10 +78,11 @@ La sección *About* muestra información genérica sobre la asociación. Esta in
 se encuentra en el archivo `_posts/2017-05-27-about.markdown` en formato markdown.
 
 ## Añadir o modificar *grupos de trabajo*
-La información sobre los *grupos de trabajo activos* se almacena en la carpeta
-`_workgroups` en archivos markdown. A cada grupo de trabajo le corresponde un
+La información sobre los *grupos de trabajo* se almacena en archivos markdown en
+ las carpetas `_workgroups` (para *grupos de trabajo activos*) o `_old_workgroups`
+  (para *antiguos grupos de trabajo*). A cada *grupo de trabajo* le corresponde un
 archivo. Dentro de cada archivo encontramos una serie de parámetros que modificar
-para modificar  la información del *grupo de trabajo activo*:
+para modificar la información del *grupo de trabajo*:
 
   * `type`: tipo de archivo (**no modificar**, debe ser `workgroup`).
   * `layout`: plantilla que se le aplicará a este archivo (**no modificar**, debe
@@ -111,6 +112,7 @@ para modificar  la información del *grupo de trabajo activo*:
   Martes de 15:00 a 16:00 en 1.0.B06" [opcional].
   * `next_meeting_doodle`: link al doodle para decidir el horario del *grupo de
   trabajo activo* [opcional].
+  * `active`: indica si el *grupo de trabajo* está activo o no (true o false).
 
 La descripción completa del grupo, que aparecerá en la página de dicho grupo, se
 incluye como texto en formato markdown después de la zona reservada a los parámetros.
@@ -137,8 +139,8 @@ para modificar la información del *proyecto*:
   la web.
  * `picture_full`: imagen que aparecerá en la página de dicho proyecto. Lo ideal
   es que esta imagen sea de **900x300px** para mantener la estética de la web.
- * `status`: estado del proyecto. Los valores posibles son: "activo", "terminado"
- o "proyecto futuro".
+ * `status`: estado del proyecto. Los valores posibles son: "activo", "terminado",
+ "abandonado" o "proyecto futuro".
 
  La descripción completa del proyecto, que aparecerá en la página de dicho
  proyecto, se incluye como texto en formato markdown después de la zona reservada
@@ -176,6 +178,14 @@ para modificar la información del premio:
 La descripción el premio o competición, que aparecerá en la página de premios y
 trofeos, se incluye como texto en formato markdown después de la zona reservada
 a los parámetros.
+
+## Redirecciones a doodle
+Es posible generar una página fija que redireccione al Doodle semanal que se ha configurado para cierto *grupo de trabajo activo*. Para ello, hay que añadir un archivo markdown a la carpeta `_redirects`, que contenga los siguientes parámetros:
+
+* `workgroup_id`: *grupo de trabajo activo* al que pertenece el proyecto. El valor
+ debe coincidir con el valor del `workgroup_id` de algún *grupo de trabajo activo*.
+* `layout`: plantilla que se le aplicará a este archivo (**no modificar**, debe
+ ser `redirect_to_doodle`).
 
 # Atribuciones
 Esta web se inspiró en las siguientes plantillas:
