@@ -8,6 +8,14 @@
 
     {% include navigation_home.html %}
     {% include header.html %}
+
+    <!-- Page Content -->
+    <div class="container">
+    <div class="mt-4 alert alert-danger" role="alert">
+      <strong>Esta lista está incompleta.</strong> Puedes encontrar la información sobre antiguos grupos de trabajo que todavía no han sido migrados a esta página <a href="http://asrob.uc3m.es/index.php/Antiguos_Proyectos">aquí</a>.
+    </div>
+  </div>
+
     {% include workgroups.html title='Antiguos Grupos de Trabajo' collection=site.old_workgroups %}
     {% include footer.html %}
     {% include js.html %}
