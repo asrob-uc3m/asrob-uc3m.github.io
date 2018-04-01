@@ -1,10 +1,11 @@
 ---
+active: true
 description: RoboFactory es la rama de ASROB que existe por y para fabricar robots.
 layout: workgroup
 manager: David Estevez
 manager_email: david.estevez.fdez@gmail.com
 name: RoboFactory
-next_meeting: Jueves, 22/03/2018 de 15:00 a 17:00 en 1.0.B06
+next_meeting: Jueves, 05/04/2018 de 15:00 a 17:00 en 1.0.B06
 next_meeting_doodle: https://doodle.com/poll/pzs8typ7fdzfruuy
 picture: /img/robofactory.jpg
 picture_full: /img/robofactory-full.jpg
@@ -12,7 +13,6 @@ type: workgroup
 url_telegram: https://t.me/joinchat/ADT1EEQ8hCPiK1UgFCAqiw
 url_wiki: http://asrob.uc3m.es/index.php/RoboFactory
 workgroup_id: robofactory
-active: true
 ---
 
 RoboFactory es la rama de ASROB que existe por y para fabricar robots.
