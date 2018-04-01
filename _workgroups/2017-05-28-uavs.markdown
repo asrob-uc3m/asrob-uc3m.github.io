@@ -9,6 +9,7 @@ picture_full: /img/uavs-full.jpg
 manager: Andrés Prieto
 manager_email: andresprietoyanes[at]gmail[dot]com
 layout: workgroup
+active: true
 ---
 
 UAV son las siglas de Unmanned Aerial Vehicle, vehículo aéreo no tripulado.

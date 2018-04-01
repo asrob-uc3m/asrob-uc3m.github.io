@@ -23,9 +23,17 @@
         <div class="row my-2">
           <div class="col-md-3 text-left">
             {% if page.status %}
-            {% assign status = 'success' | page.status == "activo" %}
-            {% assign status = 'default' | page.status == "terminado" %}
-            {% assign status = 'info' | page.status == "proyecto futuro" %}
+              {% if page.status == "activo" %}
+                {% assign status = 'success' %}
+              {% elsif page.status == 'terminado' %}
+                {% assign status = 'default' %}
+              {% elsif page.status == 'proyecto futuro' %}
+                  {% assign status = 'info' %}
+              {% elsif page.status == 'abandonado' %}
+                  {% assign status = 'danger' %}
+              {% else %}
+                {% assign status = 'warning' %}
+              {% endif %}
             <h4><strong>Estado:</strong> <span class="badge badge-{{status}}">{{page.status}}</span></h4>
             {% endif %}
           </div>
@@ -58,8 +66,10 @@
         <div class="row">
           <div class="col text-right mb-4">
             {% assign back_link = site.workgroups | where: "workgroup_id", page.parent %}
-            <a class="btn btn-sml btn-secondary"href="{{back_link.first.url}}">&larr; Volver al grupo de trabajo</a>
-          </div>
+            {% unless back_link.first.url %}
+              {% assign back_link = site.old_workgroups | where: "workgroup_id", page.parent %}
+            {% endunless %}
+            <a class="btn btn-sml btn-secondary"href="{{back_link.first.url}}">&larr; Volver al grupo de trabajo</a>          </div>
         </div>
 
       </div>

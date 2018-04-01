@@ -8,7 +8,7 @@ url_wiki: http://asrob.uc3m.es/index.php/AIr_Hockey
 url_github: https://github.com/asrob-uc3m/air-hockey
 picture: /img/air-hockey.jpg
 picture_full: /img/air-hockey-full.jpg
-status: activo
+status: abandonado
 layout: project
 ---
 
@@ -53,4 +53,3 @@ Sigue el progreso del grupo en su [Cuaderno de Bitácora](https://github.com/asr
 *   Nuestra principal fuente de inspiración para el proyecto es el
     [genial robot de jjrobots](http://www.jjrobots.com/air-hockey-robot-evo/)
 *   CoreXY: <http://www.thingiverse.com/thing:1654578>
-

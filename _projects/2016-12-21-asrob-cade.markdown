@@ -8,7 +8,7 @@ url_wiki: http://asrob.uc3m.es/index.php/ASROB-cade
 url_github: https://github.com/asrob-uc3m/ASROB-CADE
 picture: /img/asrob-cade.jpg
 picture_full: /img/asrob-cade-full.jpg
-status: activo
+status: terminado
 layout: project
 ---
 

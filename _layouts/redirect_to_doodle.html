@@ -8,8 +8,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="Website for {{site.society.name}}">
       <meta name="author" content="David Estevez (DEF)">
+      {% if workgroup.active %}
       <meta http-equiv="refresh" content="0; url={{doodle_url}}">
-
+      {% endif %}
 
       <title>{{site.society.name}} - {{site.society.short_name}}</title>
 
@@ -46,9 +47,13 @@
 
       <!-- Page Content -->
       <div class="container">
-
+      {% if workgroup.active %}
         {% include page_heading.html title="Redirección a Doodle" subtitle=page.workgroup_id %}
         <p class="my-5">En uno segundos serás redirigido al Doodle de esta semana. Si no se carga automáticamente, puedes acceder al Doodle haciendo click <a href="{{doodle_url}}">aquí</a>.</p>
+      {% else %}
+      {% include page_heading.html title="Redirección inactiva" subtitle=page.workgroup_id %}
+        <p class="my-5">Se ha desactivado la redirección al doodle de este grupo de trabajo ya que se encuentra inactivo en la actualidad.</p>
+      {% endif %}
         <hr>
       </div>
 

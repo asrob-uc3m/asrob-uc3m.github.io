@@ -3,9 +3,9 @@
       <div class="anchor" id="workgroups"></div>
       <div class="container my-8">
           <!-- Section Heading -->
-          <h1 class="text-center my-4">Grupos de trabajo activos</h1>
+          <h1 class="text-center my-4">{{include.title}}</h1>
 
-          {% for workgroup in site.workgroups %}
+          {% for workgroup in include.collection %}
           {% assign var = forloop.index0 | modulo:2 %}
           <!-- Project {{forloop.index}} -->
           <div class="row align-items-center">
@@ -18,12 +18,12 @@
               <div class="col-md-5">
                   <h3 class="text-center">{{workgroup.name}}</h3>
                   <p class="text-justify">{{workgroup.description}}</p>
-                  {% if workgroup.next_meeting %}
+                  {% if workgroup.active and workgroup.next_meeting %}
                   <div class="alert alert-info" role="alert">
                     <strong>Próxima reunión:</strong> {{workgroup.next_meeting}}
                   </div>
                   {% endif %}
-                  {% if workgroup.next_meeting_doodle %}
+                  {% if workgroup.active and workgroup.next_meeting_doodle %}
                   <div class="alert alert-success" role="alert">
                     Elige el horario de la siguente reunión en este <a href="{{workgroup.next_meeting_doodle}}">Doodle</a>
                   </div>
@@ -41,12 +41,12 @@
               <div class="col-md-5">
                   <h3 class="text-center">{{workgroup.name}}</h3>
                   <p class="text-justify">{{workgroup.description}}</p>
-                  {% if workgroup.next_meeting %}
+                  {% if workgroup.active and workgroup.next_meeting %}
                   <div class="alert alert-info" role="alert">
                     <strong>Próxima reunión:</strong> {{workgroup.next_meeting}}
                   </div>
                   {% endif %}
-                  {% if workgroup.next_meeting_doodle %}
+                  {% if workgroup.active and workgroup.next_meeting_doodle %}
                   <div class="alert alert-success" role="alert">
                     Elige el horario de la siguente reunión en este <a href="{{workgroup.next_meeting_doodle}}">Doodle</a>
                   </div>

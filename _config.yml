@@ -93,9 +93,9 @@ society:
 
 # More info: these are the links to the main sections of the website
 more_info:
-  - title: Antiguos proyectos
+  - title: Antiguos grupos de trabajo
     description: Proyectos que se llevaron a cabo en ASROB, pero que actualmente no cuentan con un Grupo de Trabajo Activo.
-    url: http://asrob.uc3m.es/index.php/Antiguos_Proyectos
+    url: /old-workgroups.html
     picture: /img/old_projects.png
 
   - title: Gestión de impresoras 3D
@@ -153,6 +153,9 @@ collections:
         title: Noticias
     workgroups:
         title: Grupos de Trabajo Activos
+        output: true
+    old_workgroups:
+        title: Antiguos Grupos de Trabajo
         output: true
     projects:
         title: Proyectos
