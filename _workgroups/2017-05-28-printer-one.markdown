@@ -1,4 +1,5 @@
 ---
+active: true
 description: "Impresoras 3D. Olor a pl\xE1stico derretido y laca. <br> Somos un grupo\
   \ de estudiantes de la Universidad Carlos III de Madrid interesados en el mundo\
   \ de la impresi\xF3n 3D."
@@ -7,14 +8,13 @@ manager: "Manuel Pe\xF1a"
 manager_email: mpf[dot]manu[at]gmail[dot]com
 name: Printer One&#58; A Clone Wars Story
 next_meeting: Jueves, 05/04/2018 de 18:00 a 21:00 en 1.0.B06
-next_meeting_doodle: https://doodle.com/poll/knksgh5xuk5kgxam
+next_meeting_doodle: https://doodle.com/poll/7bt8gynpgxai2ywt
 picture: /img/printer_one.png
 picture_full: /img/printer_one-full.jpg
 type: workgroup
 url_telegram: https://t.me/joinchat/AvkhtkN_oz3EOU5JbSBGEA
 url_wiki: http://asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story
 workgroup_id: printer_one
-active: true
 ---
 
 <!--- Model for next_meeting string here --->
