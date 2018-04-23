@@ -7,8 +7,8 @@ url_wiki: http://asrob.uc3m.es/index.php/Robot_Devastation
 url_telegram: https://telegram.me/joinchat/ADT1EAjJk_gwAb9GNkqcpA
 picture: /img/rd.png
 picture_full: /img/rd-full.jpg
-manager:
-manager_email:
+manager: Juan G Victores
+manager_email: jcgvicto[at]gmail[dot]com
 next_meeting:  Viernes de 17h a 19h en 1.0.B06
 layout: workgroup
 active: true
