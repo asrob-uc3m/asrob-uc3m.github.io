@@ -8,7 +8,7 @@ manager: "Manuel Pe\xF1a"
 manager_email: mpf[dot]manu[at]gmail[dot]com
 name: Printer One&#58; A Clone Wars Story
 next_meeting: Jueves, 10/05/2018 de 16:00 a 21:00 en 1.0.B06
-next_meeting_doodle: https://doodle.com/poll/b8ftksnc8a3iiet9
+next_meeting_doodle: https://doodle.com/poll/vsu8nc3cuugwd2rg
 picture: /img/printer_one.png
 picture_full: /img/printer_one-full.jpg
 type: workgroup
