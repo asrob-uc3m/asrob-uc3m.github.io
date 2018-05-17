@@ -23,7 +23,6 @@ active: true
 - Development Tracking
    - [GitHub Project](https://github.com/orgs/asrob-uc3m/projects/1)
    - [GitHub Wiki (Cuaderno de Bitácora)](https://github.com/asrob-uc3m/robotDevastation/wiki/Cuaderno-de-Bitácora)
-- Development Info
 - Additional Links
    - [Main Repository (robotDevastation)](https://github.com/asrob-uc3m/robotDevastation)
    - [Robots Repository (robotDevastation-robots)](https://github.com/asrob-uc3m/robotDevastation-robots)
