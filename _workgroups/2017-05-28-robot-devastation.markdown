@@ -9,7 +9,7 @@ picture: /img/rd.png
 picture_full: /img/rd-full.jpg
 manager: Juan G. Victores
 manager_email: jcgvicto[at]gmail[dot]com
-next_meeting: Volvemos en septiembre los viernes de 17h a 19h en 1.0.B06 (Se ruega que cada participante traiga su portátil o equipo!)
+next_meeting: Volvemos el viernes 14 de septiembre de 17h a 19h en 1.0.B06 (Se ruega que cada participante traiga su portátil o equipo!)
 layout: workgroup
 active: true
 ---
