@@ -55,9 +55,6 @@ society:
       - id: linkedin
         name: Linkedin
         url: https://www.linkedin.com/in/asrobuc3m
-      - id: google-plus
-        name: Google+
-        url: http://plus.google.com/u/0/117320353227938266035
       - id: envelope
         name: Email
         url: mailto:asrob-uc3m@gmail.com
