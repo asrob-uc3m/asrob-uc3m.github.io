@@ -40,6 +40,9 @@ society:
   # Social networking links used in footer. Update and remove as you like.
   # (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
   social:
+      - id: telegram
+        name: Telegram
+        url: https://t.me/joinchat/ADT1EAgigvgsuobGUHMl_w
       - id: github
         name: GitHub
         url: https://github.com/asrob-uc3m
