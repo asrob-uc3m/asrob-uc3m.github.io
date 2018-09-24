@@ -4,8 +4,8 @@ description: "Impresoras 3D. Olor a pl\xE1stico derretido y laca. <br> Somos un 
   \ de estudiantes de la Universidad Carlos III de Madrid interesados en el mundo\
   \ de la impresi\xF3n 3D."
 layout: workgroup
-manager: "Manuel Pe\xF1a"
-manager_email: mpf[dot]manu[at]gmail[dot]com
+manager: "Jorge Ramos"
+manager_email: 100317057[at]alumnos[dot]uc3m[dot]com
 name: Printer One&#58; A Clone Wars Story
 next_meeting: Lunes, 24/09/2018 de 18:00 a 21:00 en 1.0.B06
 next_meeting_doodle: https://doodle.com/poll/5ss8urebaschibir
