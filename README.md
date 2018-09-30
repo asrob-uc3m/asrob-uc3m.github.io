@@ -13,10 +13,11 @@ de la web.
 
 
 ## Configurando la información de la web
-### Configuración básica
 
 El archivo `_config.yml` contiene los parámateros básicos de configuración de la
 web, así como otros parámetros avanzados.
+
+### Configuración básica
 
 El apartado `society` contiene la información básica sobre la asociación:
 
