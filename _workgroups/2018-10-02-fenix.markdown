@@ -22,11 +22,11 @@ Tambien realizamos talleres de montaje y personalizacion de drones. Por lo que t
 
 Nuestra filosofía, y esto es comun en todo ASROB, es que cada uno aporte con lo que sabe y emprendamos proyectos con los recursos y experiencia disponibles (que no son pocos); y gracias a que somos varios grupos la variedad de talleres y campos que abordamos son amplios. Si decides comprarte uno por supuesto te asesoraremos sobre qué componentes y donde puedes comprar. Si te llama la atención este mundo visítanos los viernes, de 15h en adelante, sin compromiso y comprueba por ti mism@.
 
-Siguientes talleres:
+## Siguientes talleres:
 
   * [Pendiente de Fecha]: Taller de Papa Noel 
 
-Proyectos en proceso:
+## Proyectos en proceso:
 
 * Construccion de un Circuito de Carreras.
 * Reparacion de drones.
