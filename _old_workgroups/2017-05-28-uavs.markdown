@@ -8,6 +8,7 @@ picture: /img/uavs.png
 picture_full: /img/uavs-full.jpg
 manager: Andrés Prieto
 manager_email: andresprietoyanes[at]gmail[dot]com
+url_playlist: https://www.youtube.com/playlist?list=PLA0DE7DF739632622
 layout: workgroup
 active: true
 ---
@@ -24,7 +25,6 @@ Siguientes charlas:
 
 Playlists:
 
-* url_playlist: https://www.youtube.com/playlist?list=PLA0DE7DF739632622
 * [UAVs](https://www.youtube.com/playlist?list=PLA0DE7DF739632622)
 * [UAVs (how-tos)](https://www.youtube.com/playlist?list=PLsVexTwov1BoNi3ouS92CoFPM53v1Siv5)
 
