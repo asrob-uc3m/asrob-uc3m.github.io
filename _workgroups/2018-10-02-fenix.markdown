@@ -30,7 +30,7 @@ Nuestra filosofía, y esto es comun en todo ASROB, es que cada uno aporte con lo
 
   * (Pendiente de Fecha): [Taller de Papa Noel](https://github.com/asrob-uc3m/Taller-de-Papa-Noel) 
 
-## Proyectos en proceso:
+## Proyectos Abiertos:
 
 * Construccion de un Circuito de Carreras.
 * [Reparacion y Configuracion de drones.](https://github.com/asrob-uc3m/F.E.N.I.X.)
