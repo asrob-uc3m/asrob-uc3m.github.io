@@ -10,7 +10,7 @@ picture_full: /img/LOGOWebFENIX.jpg
 manager: Jorge Frutos (JorFru)
 manager_email: 100317402[arroba]alumnos[punto]uc3m[punto]es
 layout: workgroup
-url_telegram:https://t.me/UAVdronesdecarreras
+url_telegram: https://t.me/UAVdronesdecarreras
 active: true
 ---
 
