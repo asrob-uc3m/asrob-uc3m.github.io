@@ -24,6 +24,7 @@ Siguientes charlas:
 
 Playlists:
 
+* url_playlist: https://www.youtube.com/playlist?list=PLA0DE7DF739632622
 * [UAVs](https://www.youtube.com/playlist?list=PLA0DE7DF739632622)
 * [UAVs (how-tos)](https://www.youtube.com/playlist?list=PLsVexTwov1BoNi3ouS92CoFPM53v1Siv5)
 
