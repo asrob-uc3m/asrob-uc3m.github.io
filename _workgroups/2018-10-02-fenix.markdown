@@ -5,8 +5,8 @@ name: F.E.N.I.X.
 description: F.E.N.I.X. son las siglas de Flying "Economic" droNes and Investigation eXperience. <br> Si estas interesad@ en aprender sobre drones este es tu sitio. Aprenderás a montar tus drones, con la elección de los componentesnecesarios. Así como la configuración del mismo y vuelos, muuchos vuelos. Tambien realizamos carreras con nandrones por un circuito.
 next_meeting: 
 next_meeting_doodle: 
-picture: /img/uavs.png
-picture_full: /img/LOGOWebFENIX.jpg
+picture: /img/LOGOWebFENIX.jpg
+picture_full: /img/uavs-full.jpg
 manager: Jorge Frutos (JorFru)
 manager_email: 100317402[arroba]alumnos[punto]uc3m[punto]es
 layout: workgroup
