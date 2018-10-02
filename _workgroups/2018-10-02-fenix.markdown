@@ -30,5 +30,5 @@ Nuestra filosofía, y esto es comun en todo ASROB, es que cada uno aporte con lo
 ## Proyectos en proceso:
 
 * Construccion de un Circuito de Carreras.
-* Reparacion de drones.
+* Reparacion y Configuracion de drones.
 
