@@ -32,6 +32,6 @@ Nuestra filosofía, y esto es comun en todo ASROB, es que cada uno aporte con lo
 
 ## Proyectos Abiertos:
 
-* Construccion de un Circuito de Carreras.
+* [Construccion de un Circuito de Carreras.](https://github.com/asrob-uc3m/ASROB-FPV-Racing)
 * [Reparacion y Configuracion de drones.](https://github.com/asrob-uc3m/FENIX)
 
