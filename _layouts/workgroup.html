@@ -41,6 +41,9 @@
       {% if page.url_telegram %}
       {% include alert_telegram.html link=page.url_telegram %}
       {% endif %}
+      {% if page.url_playlist %}
+      {% include alert_telegram.html link=page.url_playlist %}
+      {% endif %}
 
       {% assign workgroup_projects = site.projects | where: "parent", page.workgroup_id %}
       {% if workgroup_projects.size > 0  %}
