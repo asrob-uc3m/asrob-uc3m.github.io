@@ -1,0 +1,31 @@
+---
+type: workgroup
+workgroup_id: uavs
+name: UAVs
+description: UAV son las siglas de Unmanned Aerial Vehicle, vehículo aéreo no tripulado. <br> Si estas interesad@ en aprender sobre drones este es tu sitio. Aprenderás a diseñar tus drones en CAD (Diseño 3D), cómo imprimir tus piezas gratis en 3D. Solemos dar charlas acerca de los algoritmos de control que permiten que se mantengan estables en vuelo y de cualquier otro tema que pueda surgir interés en aprender.
+url_wiki: http://asrob.uc3m.es/index.php/UAVs
+picture: /img/uavs.png
+picture_full: /img/uavs-full.jpg
+manager: Andrés Prieto
+manager_email: andresprietoyanes[at]gmail[dot]com
+layout: workgroup
+active: true
+---
+
+UAV son las siglas de Unmanned Aerial Vehicle, vehículo aéreo no tripulado.
+
+Si estas interesad@ en aprender sobre drones este es tu sitio. Somos un grupo estudiantes de la universidad con ganas de aprender e investigar como formación complementaria a los estudios, buscamos la parte más práctica o de aplicación que en la carrera no da tiempo a abordar. Aprenderás a diseñar tus drones en CAD (Diseño 3D), cómo imprimir tus piezas gratis en 3D. Solemos dar charlas acerca de los algoritmos de control que permiten que se mantengan estables en vuelo y de cualquier otro tema que pueda surgir interés en aprender.
+
+Nuestra filosofía, y esto es comun en todo ASROB, es que cada uno aporte con lo que sabe y emprendamos proyectos con los recursos y experiencia disponibles (que no son pocos); y gracias a que somos varios grupos la variedad de talleres y campos que abordamos son amplios. Si decides comprarte uno por supuesto te asesoraremos sobre qué componentes y donde puedes comprar. Si te llama la atención este mundo visítanos los viernes, de 15h en adelante, sin compromiso y comprueba por ti mism@.
+
+Siguientes charlas:
+
+  * 02/12/2016 (19:00h): Charla: Introducción a los Drones Impartida por UAVs
+
+Playlists:
+
+* [UAVs](https://www.youtube.com/playlist?list=PLA0DE7DF739632622)
+* [UAVs (how-tos)](https://www.youtube.com/playlist?list=PLsVexTwov1BoNi3ouS92CoFPM53v1Siv5)
+
+Vuelo de uno de los integrantes de la rama:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m5p0BPTHmEU?rel=0" frameborder="0" allowfullscreen></iframe>
