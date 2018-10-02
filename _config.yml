@@ -52,6 +52,9 @@ society:
       - id: twitter
         name: Twitter
         url: http://twitter.com/asrob_uc3m
+       - id: instagram
+        name: Instagram
+        url: https://www.instagram.com/asrob_uc3m
       - id: facebook
         name: Facebook
         url: http://www.facebook.com/pages/Asociacion-de-Robotica-UC3M/170784706272131
