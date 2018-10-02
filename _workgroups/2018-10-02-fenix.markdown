@@ -1,0 +1,34 @@
+---
+type: workgroup
+workgroup_id: fenix
+name: F.E.N.I.X.
+description: F.E.N.I.X. son las siglas de Flying "Economic" droNes and Investigation eXperience. <br> Si estas interesad@ en aprender sobre drones este es tu sitio. Aprenderás a montar tus drones, con la elección de los componentesnecesarios. Así como la configuración del mismo y vuelos, muuchos vuelos. Tambien realizamos carreras con nandrones por un circuito.
+next_meeting: 
+next_meeting_doodle: 
+picture: /img/fenix.jpg
+picture_full: /img/uavs-full.jpg
+manager: Jorge Frutos (JorFru)
+manager_email: 100317402[arroba]alumnos[punto]uc3m[punto]es
+layout: workgroup
+url_telegram: https://t.me/UAVdronesdecarreras
+active: true
+---
+
+F.E.N.I.X. son las siglas de Flying "Economic" droNes and Investigation eXperience.
+
+Si estas interesad@ en aprender sobre drones este es tu sitio. Aprenderás a montar tus drones, con la elección de los componentesnecesarios. Así como la configuración del mismo y vuelos, muuchos vuelos. Tambien realizamos carreras con nandrones por un circuito. Y para complementar todo esto, tenemos reuniones cada semana en el 1.0.B06 para realizar los proyectos, y tambien reuniones fuera del entorno para volar en exteriores. Cualquier proyecto es bienvenido, por lo que si tienes alguna idea, pasate un dia y nos la cuentas.
+
+Tambien realizamos talleres de montaje y personalizacion de drones. Por lo que tanto si deseas empezar de cero, como si llevas mucho tiempo volando, este es tu sitio.
+
+Nuestra filosofía, y esto es comun en todo ASROB, es que cada uno aporte con lo que sabe y emprendamos proyectos con los recursos y experiencia disponibles (que no son pocos); y gracias a que somos varios grupos la variedad de talleres y campos que abordamos son amplios. Si decides comprarte uno por supuesto te asesoraremos sobre qué componentes y donde puedes comprar. Si te llama la atención este mundo visítanos los viernes, de 15h en adelante, sin compromiso y comprueba por ti mism@.
+
+
+## Siguientes talleres:
+
+  * (Pendiente de Fecha): [Taller de Papa Noel](https://github.com/asrob-uc3m/Taller-de-Papa-Noel) 
+
+## Proyectos en proceso:
+
+* Construccion de un Circuito de Carreras.
+* [Reparacion y Configuracion de drones.](https://github.com/asrob-uc3m/F.E.N.I.X.)
+

@@ -5,7 +5,7 @@ description: "Impresoras 3D. Olor a pl\xE1stico derretido y laca. <br> Somos un 
   \ de la impresi\xF3n 3D."
 layout: workgroup
 manager: "Jorge Ramos"
-manager_email: 100317057[at]alumnos[dot]uc3m[dot]com
+manager_email: 100317057@alumnos.uc3m.com
 name: Printer One&#58; A Clone Wars Story
 next_meeting: Miercoles, 03/10/2018 de 13:00 a 15:00 en 1.0.B06
 next_meeting_doodle: https://doodle.com/poll/r2yybc5izqgnvebx
