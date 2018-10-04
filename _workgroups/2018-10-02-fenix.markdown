@@ -1,6 +1,6 @@
 ---
 active: true
-description: F.E.N.I.X. son las siglas de Flying "Economic" droNes and Investigation eXperience. <br> Si estas interesad@ en aprender sobre drones este es tu sitio. Aprenderás a montar tus drones, con la elección de los componentesnecesarios. Así como la configuración del mismo y vuelos, muuchos vuelos. Tambien realizamos carreras con nandrones por un circuito.
+description: F.E.N.I.X. son las siglas de Flying "Economic" droNes and Investigation eXperience. <br> Si estas interesad@ en aprender sobre drones este es tu sitio. Aprenderás a montar tus drones, con la elección de los componentes necesarios. Así como la configuración del mismo y vuelos, muuchos vuelos. También realizamos carreras con nanodrones por un circuito construido por nosotros.
 layout: workgroup
 manager: Jorge Frutos (JorFru)
 manager_email: 100317402@alumnos.uc3m.es
