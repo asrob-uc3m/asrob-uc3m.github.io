@@ -8,6 +8,7 @@ picture: /img/uavs.png
 picture_full: /img/uavs-full.jpg
 manager: Andrés Prieto
 manager_email: andresprietoyanes[at]gmail[dot]com
+url_playlist: https://www.youtube.com/playlist?list=PLsVexTwov1BoNi3ouS92CoFPM53v1Siv5
 layout: workgroup
 active: true
 ---
@@ -22,10 +23,8 @@ Siguientes charlas:
 
   * 02/12/2016 (19:00h): Charla: Introducción a los Drones Impartida por UAVs
 
-Playlists:
-
-* [UAVs](https://www.youtube.com/playlist?list=PLA0DE7DF739632622)
-* [UAVs (how-tos)](https://www.youtube.com/playlist?list=PLsVexTwov1BoNi3ouS92CoFPM53v1Siv5)
-
 Vuelo de uno de los integrantes de la rama:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m5p0BPTHmEU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+[More Videos](https://www.youtube.com/playlist?list=PLA0DE7DF739632622)

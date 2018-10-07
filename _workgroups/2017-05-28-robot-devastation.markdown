@@ -5,11 +5,12 @@ name: Robot Devastation
 description: Un shooter de nueva generación con realidad aumentada y robots reales. A través de tu PC vas a poder jugar online con otros usuarios, manejando robots en campeonatos y campa&#241;as&#58; &#161;todo 24&#47;7&#33;
 url_wiki: http://asrob.uc3m.es/index.php/Robot_Devastation
 url_telegram: https://telegram.me/joinchat/ADT1EAjJk_gwAb9GNkqcpA
+url_playlist: https://www.youtube.com/playlist?list=PL0E72403A6C94309E
 picture: /img/rd.png
 picture_full: /img/rd-full.jpg
 manager: Juan G. Victores
 manager_email: jcgvicto[at]gmail[dot]com
-next_meeting: Viernes de 17h a 19h en 1.0.B06 (Se ruega que cada participante traiga su portátil o equipo!)
+next_meeting: Miércoles 10 de 16:00h a 17:45h en 1.0.B06 (Se ruega que cada participante traiga su portátil o equipo!)
 layout: workgroup
 active: true
 ---
