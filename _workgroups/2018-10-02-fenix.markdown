@@ -27,7 +27,7 @@ Nuestra filosofía, y esto es comun en todo ASROB, es que cada uno aporte con lo
 
 ## Siguientes talleres:
 
-  * (Pendiente de Fecha): [Taller de Papa Noel](https://github.com/asrob-uc3m/Taller-de-Papa-Noel) 
+  * (Pendiente de Fecha): [Taller de Santa Whoop](https://github.com/asrob-uc3m/taller-santa-whoop) 
 
 ## Proyectos Abiertos:
 
