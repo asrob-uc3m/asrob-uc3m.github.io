@@ -5,8 +5,8 @@ layout: workgroup
 manager: Jorge Frutos (JorFru)
 manager_email: 100317402@alumnos.uc3m.es
 name: F.E.N.I.X.
-next_meeting: Jueves, 18/10/2018 de 13:00 a 15:00 en 1.0.B06
-next_meeting_doodle: https://doodle.com/poll/94kabute8cupg8yv
+next_meeting: Jueves, 25/10/2018 de 13:00 a 15:00 en 1.0.B06
+next_meeting_doodle: https://doodle.com/poll/6vvp5rxb9nmwcz6q
 picture: /img/fenix.jpg
 picture_full: /img/uavs-full.jpg
 type: workgroup
