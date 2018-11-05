@@ -10,7 +10,7 @@ picture: /img/rd.png
 picture_full: /img/rd-full.jpg
 manager: Juan G. Victores
 manager_email: jcgvicto[at]gmail[dot]com
-next_meeting: Miércoles 31 de 17:00h a 19:00h en 1.0.B06 (Se ruega que cada participante traiga su portátil o equipo!)
+next_meeting: Viernes 9 de 17:00h a 19:00h en 1.0.B06 (Se ruega que cada participante traiga su portátil o equipo!)
 layout: workgroup
 active: true
 ---
