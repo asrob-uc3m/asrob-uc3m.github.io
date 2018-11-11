@@ -6,7 +6,7 @@ manager: David Estevez
 manager_email: david.estevez.fdez@gmail.com
 name: RoboFactory
 next_meeting: "Mi\xE9rcoles, 07/11/2018 de 13:00 a 15:00 en 1.0.B06"
-next_meeting_doodle: https://doodle.com/poll/98c5aezu2af7s93u
+next_meeting_doodle: https://doodle.com/poll/4b4n6tyg6y8q925n
 picture: /img/robofactory.jpg
 picture_full: /img/robofactory-full.jpg
 type: workgroup
