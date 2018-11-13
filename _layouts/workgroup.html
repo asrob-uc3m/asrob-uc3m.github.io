@@ -39,7 +39,7 @@
       {% endif %}
       {% include alert_manager_info.html group_name=page.name name=page.manager email=page.manager_email %}
       {% if page.keys_info %}
-      {% include alert_keys.html names=page.keys_info %}
+      {% include alert_keys.html group_name=page.name names=page.keys_info %}
       {% endif %}
       {% if page.url_telegram %}
       {% include alert_telegram.html link=page.url_telegram %}
