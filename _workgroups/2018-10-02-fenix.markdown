@@ -11,6 +11,7 @@ picture: /img/fenix.jpg
 picture_full: /img/uavs-full.jpg
 type: workgroup
 url_telegram: https://t.me/UAVdronesdecarreras
+keys_info: Jorge Frutos
 workgroup_id: fenix
 ---
 
