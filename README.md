@@ -102,6 +102,8 @@ para modificar la información del *grupo de trabajo*:
   en la wiki [opcional].
   * `url_telegram,`: enlace al grupo de telegram del *grupo de trabajo activo*
   [opcional].
+  * `url_playlist`: enlace a la lista de reproducciones de YouTube del *grupo de trabajo activo*
+  [opcional].
   * `picture`: thumbnail que aparecerá en la portada de la web. Lo ideal es que
   esta imagen sea de **700x300px** para mantener la estética de la web.
   * `picture_full`: imagen que aparecerá en la página de dicho grupo. Lo ideal es
