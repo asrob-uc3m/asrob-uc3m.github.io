@@ -12,7 +12,7 @@ picture_full: /img/robofactory-full.jpg
 type: workgroup
 url_telegram: https://t.me/joinchat/ADT1EEQ8hCPiK1UgFCAqiw
 url_wiki: http://asrob.uc3m.es/index.php/RoboFactory
-keys_info: David Estevez
+keys_info: David Estevez (sólo llave del armario via ASROB)
 workgroup_id: robofactory
 ---
 
