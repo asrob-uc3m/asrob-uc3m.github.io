@@ -16,7 +16,7 @@ picture_full: /img/game-full.jpg
 subtitle: Group for Arcade Machine Experimentation
 type: workgroup
 url_telegram: https://t.me/joinchat/AAAAAECDhw3_OD21wztvIQ
-url_wiki: http://asrob.uc3m.es/index.php/GAME
+url_wiki: http://wiki.asrob.uc3m.es/index.php/GAME
 workgroup_id: game
 active: false
 ---

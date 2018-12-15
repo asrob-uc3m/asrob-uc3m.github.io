@@ -3,7 +3,7 @@ type: workgroup
 workgroup_id: rd
 name: Robot Devastation
 description: Un shooter de nueva generación con realidad aumentada y robots reales. A través de tu PC vas a poder jugar online con otros usuarios, manejando robots en campeonatos y campa&#241;as&#58; &#161;todo 24&#47;7&#33;
-url_wiki: http://asrob.uc3m.es/index.php/Robot_Devastation
+url_wiki: http://wiki.asrob.uc3m.es/index.php/Robot_Devastation
 url_telegram: https://telegram.me/joinchat/ADT1EAjJk_gwAb9GNkqcpA
 url_playlist: https://www.youtube.com/playlist?list=PL0E72403A6C94309E
 picture: /img/rd.png
@@ -37,4 +37,4 @@ active: true
    - (2016) [A New Generation of Entertainment Robots Enhanced with Augmented Reality](http://roboticslab.uc3m.es/roboticslab/sites/default/files/estevez2016a-preprint.pdf)
    - (2015) [Robot Devastation: Using DIY Low-Cost Platforms for Multiplayer Interaction in an Augmented Reality Game](http://roboticslab.uc3m.es/roboticslab/sites/default/files/estevez2015robot-preprint.pdf)
    - (2013) [Augmented Reality and Social Interaction platform through Multirobot Design](http://roboticslab.uc3m.es/roboticslab/sites/default/files/Victores%20et%20al.%20-%202013%20-%20Augmented%20reality%20and%20social%20interaction%20platform%20through%20multirobot%20design.pdf)
-   - (2013) [Android Controlled Mobile Robot](http://asrob.uc3m.es/images/1/1d/PFC_-_Jorge_Kazacos.pdf)
+   - (2013) [Android Controlled Mobile Robot](http://wiki.asrob.uc3m.es/images/1/1d/PFC_-_Jorge_Kazacos.pdf)
