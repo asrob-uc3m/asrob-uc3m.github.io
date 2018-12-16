@@ -7,7 +7,7 @@ layout: workgroup
 manager: "Jorge Ramos"
 manager_email: 100317057@alumnos.uc3m.com
 name: Printer One&#58; A Clone Wars Story
-next_meeting: Jueves, 13/12/2018 de 15:00 a 18:00 en 1.0.B06
+next_meeting: Jueves, 19/12/2018 de 17:00 a 21:00 en 1.0.B06
 next_meeting_doodle: https://doodle.com/poll/myba7dz2hirks5gz
 picture: /img/printer_one.png
 picture_full: /img/printer_one-full.jpg
