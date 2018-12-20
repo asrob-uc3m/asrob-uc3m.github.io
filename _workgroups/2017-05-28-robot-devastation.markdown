@@ -11,7 +11,7 @@ picture_full: /img/rd-full.jpg
 manager: Juan G. Victores
 manager_email: jcgvicto[at]gmail[dot]com
 keys_info: Juan G. Victores y Bartek Łukawski
-next_meeting: Viernes 14 de 17:00h a 19:00h en 1.0.B06 (Se ruega que cada participante traiga su portátil o equipo!)
+next_meeting: Viernes 21 de 17:00h a 19:00h en 1.0.B06 (Se ruega que cada participante traiga su portátil o equipo!)
 layout: workgroup
 active: true
 ---
