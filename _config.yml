@@ -144,16 +144,16 @@ other_links:
 collaborations:
   - name: RoboticsLab
     url: http://www.uc3m.es/
-    picture: http://wiki.asrob.uc3m.es/images/thumb/1/1b/Roboticslab_transpa.png/60px-Roboticslab_transpa.png
+    picture: img/collaborators/uc3m.png
   - name: UC3M
     url: http://roboticslab.uc3m.es/roboticslab
-    picture: http://wiki.asrob.uc3m.es/images/thumb/0/0a/Uc3m_transpa.png/200px-Uc3m_transpa.png
+    picture: img/collaborators/roboticslab.png
   - name: IEEE
     url: http://www.ieeespain.org/?q=ramas
-    picture: http://wiki.asrob.uc3m.es/images/thumb/e/e5/IEEE_transpa.png/150px-IEEE_transpa.png
+    picture: img/collaborators/ieee.png
   - name: Robocity2030
     url: http://www.robocity2030.org/branches/
-    picture: http://wiki.asrob.uc3m.es/images/thumb/9/93/Robocity2030_transpa.png/250px-Robocity2030_transpa.png
+    picture: img/collaborators/robocity.png
 
 # Collections
 collections:
