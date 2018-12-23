@@ -131,6 +131,8 @@ more_info:
 
 # other links: links to other useful resources
 other_links:
+  - name: Calendario
+    url: https://calendar.google.com/calendar/embed?src=e97mebpnhjcq8pbl28plc8l3is%40group.calendar.google.com&ctz=Europe/Madrid
   - name: Contributors
     url: http://wiki.asrob.uc3m.es/contributors
   - name: Trophies & Awards
