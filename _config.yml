@@ -116,7 +116,7 @@ more_info:
 
   - title: Tutoriales
     description: Recopilación de tutoriales y materiales útiles sobre los programas y herramientas que usamos en ASROB.
-    url: http://wiki.asrob.uc3m.es/index.php/Tutoriales
+    url: https://asrob-uc3m.gitbooks.io/tutoriales/content
     picture: /img/tutorials.png
 
   - title: Repositorios
@@ -131,8 +131,8 @@ more_info:
 
 # other links: links to other useful resources
 other_links:
-  - name: Inventario
-    url: http://wiki.asrob.uc3m.es/partkeepr-0.79/web/
+  - name: Calendario
+    url: https://calendar.google.com/calendar/embed?src=e97mebpnhjcq8pbl28plc8l3is%40group.calendar.google.com&ctz=Europe/Madrid
   - name: Contributors
     url: http://wiki.asrob.uc3m.es/contributors
   - name: Trophies & Awards
