@@ -116,7 +116,7 @@ more_info:
 
   - title: Tutoriales
     description: Recopilación de tutoriales y materiales útiles sobre los programas y herramientas que usamos en ASROB.
-    url: http://wiki.asrob.uc3m.es/index.php/Tutoriales
+    url: https://asrob-uc3m.gitbooks.io/tutoriales/content
     picture: /img/tutorials.png
 
   - title: Repositorios
