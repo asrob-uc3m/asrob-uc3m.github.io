@@ -20,8 +20,8 @@ active: true
 
 **Robot Devastation**: un shooter de nueva generación con realidad aumentada y robots reales. A través de tu smartphone o PC vas a poder jugar online con otros usuarios, manejando robots en campeonatos y campañas: ¡todo 24/7!
 
-- [User Manual](https://www.gitbook.com/book/asrob-uc3m/robotdevastation-user-manual) (includes Installation Guide)
-- [Developer Manual](https://www.gitbook.com/book/asrob-uc3m/robotdevastation-developer-manual)
+- [User Manual](https://asrob-uc3m.gitbooks.io/robotdevastation-user-manual/content) (includes Installation Guide)
+- [Developer Manual](https://asrob-uc3m.gitbooks.io/robotdevastation-developer-manual/content)
 - Development Tracking
    - [GitHub Project](https://github.com/orgs/asrob-uc3m/projects/1)
    - [GitHub Wiki (Cuaderno de Bitácora)](https://github.com/asrob-uc3m/robotDevastation/wiki/Cuaderno-de-Bitácora)
