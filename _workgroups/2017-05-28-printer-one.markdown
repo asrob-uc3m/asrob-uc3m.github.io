@@ -14,7 +14,7 @@ picture_full: /img/printer_one-full.jpg
 type: workgroup
 url_telegram: https://t.me/joinchat/AvkhtkN_oz3EOU5JbSBGEA
 url_wiki: http://wiki.asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story
-keys_info: Jorge Ramos y Manuel Peña
+keys_info: Jorge Ramos, Manuel Peña y Jorge Frutos (pendiente) 
 workgroup_id: printer_one
 ---
 
