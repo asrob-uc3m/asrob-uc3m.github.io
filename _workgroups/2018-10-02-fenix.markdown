@@ -11,7 +11,7 @@ picture: /img/fenix.jpg
 picture_full: /img/uavs-full.jpg
 type: workgroup
 url_telegram: https://t.me/UAVdronesdecarreras
-keys_info: Jorge Frutos (pendiente de [actas#182](https://github.com/asrob-uc3m/actas/issues/182))
+keys_info: Jorge Frutos (pendiente de [actas#182](https://github.com/asrob-uc3m/actas/issues/182)) y Jorge Ramos
 workgroup_id: fenix
 ---
 
