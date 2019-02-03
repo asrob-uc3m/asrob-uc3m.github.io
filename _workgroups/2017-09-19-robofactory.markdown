@@ -1,12 +1,13 @@
 ---
 active: true
 description: RoboFactory es la rama de ASROB que existe por y para fabricar robots.
-keys_info: David Estevez (s\xF3lo llave del armario via ASROB), Jorge Ramos y Jorge Frutos (pendiente)
+keys_info: David Estevez (s\xF3lo llave del armario via ASROB), Jorge Ramos y Jorge
+  Frutos (pendiente)
 layout: workgroup
 manager: David Estevez
 manager_email: david.estevez.fdez@gmail.com
 name: RoboFactory
-next_meeting: Jueves, 31/01/2019 de 17:00 a 19:00 en 1.0.B06
+next_meeting: Viernes, 08/02/2019 de 14:00 a 16:00 en 1.0.B06
 next_meeting_doodle: https://doodle.com/poll/8ikz4prc6qqk9s8r
 picture: /img/robofactory.jpg
 picture_full: /img/robofactory-full.jpg
