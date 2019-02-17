@@ -8,7 +8,7 @@ manager: David Estevez
 manager_email: david.estevez.fdez@gmail.com
 name: RoboFactory
 next_meeting: "S\xE1bado, 08/02/2020 de 14:00 a 16:00 en 1.0.B06"
-next_meeting_doodle: https://doodle.com/poll/8ikz4prc6qqk9s8r
+next_meeting_doodle: https://doodle.com/poll/25px8nxgceuubiwm
 picture: /img/robofactory.jpg
 picture_full: /img/robofactory-full.jpg
 type: workgroup
