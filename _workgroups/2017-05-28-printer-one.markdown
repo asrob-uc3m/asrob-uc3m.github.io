@@ -8,11 +8,11 @@ manager: "Jorge Ramos"
 manager_email: 100317057@alumnos.uc3m.com
 name: Printer One&#58; A Clone Wars Story
 next_meeting: Jueves, 21/02/2019 de 17:00 a 21:00 en 1.0.B06
-next_meeting_doodle: https://doodle.com/poll/zw6xvme9dhvwkr6x
+next_meeting_doodle: https://doodle.com/poll/s2isbtbu94zp4bw4
 picture: /img/printer_one.png
 picture_full: /img/printer_one-full.jpg
 type: workgroup
-url_telegram: https://t.me/joinchat/AvkhtkN_oz3EOU5JbSBGEA
+url_telegram: https://t.me/joinchat/EbHx60N_oz3y5Cq5Ja2ObQ
 url_wiki: http://wiki.asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story
 keys_info: Jorge Ramos, Manuel Peña y Jorge Frutos (pendiente) 
 workgroup_id: printer_one
