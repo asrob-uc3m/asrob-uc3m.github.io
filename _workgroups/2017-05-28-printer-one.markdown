@@ -14,7 +14,7 @@ picture_full: /img/printer_one-full.jpg
 type: workgroup
 url_telegram: https://t.me/joinchat/EbHx60N_oz3y5Cq5Ja2ObQ
 url_wiki: http://wiki.asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story
-keys_info: Jorge Ramos, Tomás Criado y Jorge Frutos (pendiente) 
+keys_info: Jorge Ramos, Tomás Criado y Jorge Frutos
 workgroup_id: printer_one
 ---
 
