@@ -7,8 +7,8 @@ layout: workgroup
 manager: David Estevez
 manager_email: david.estevez.fdez@gmail.com
 name: RoboFactory
-next_meeting: Viernes 25 de octubre de 13:00 a 15:00 en 1.0.B06.
-next_meeting_doodle: https://doodle.com/poll/2s9yp862eczuf9aa
+next_meeting: Por determinar en 1.0.B06.
+next_meeting_doodle: https://doodle.com/poll/ryng6rtz9zsmsd3k
 picture: /img/robofactory.jpg
 picture_full: /img/robofactory-full.jpg
 type: workgroup
