@@ -13,7 +13,7 @@ picture: /img/robofactory.jpg
 picture_full: /img/robofactory-full.jpg
 type: workgroup
 url_telegram: https://t.me/joinchat/ADT1EEQ8hCPiK1UgFCAqiw
-url_wiki: http://wiki.asrob.uc3m.es/index.php/RoboFactory
+url_wiki: https://apps-robots.uc3m.es/asrob/wiki/RoboFactory
 workgroup_id: robofactory
 ---
 
@@ -27,4 +27,4 @@ Actualmente el grupo se divide en varios equipos:
 * [Sumo](): para construir robots de sumo y competir. Sigue su progreso [aquí]().
 * [Asroboturret](https://github.com/asrob-uc3m/asroboturret): para construir una torreta de combate que se pueda usar en [Robot Devastation](). Sigue su progreso [aquí]().
 
-Sigue el progreso de este grupo (en conjunto) en su [Cuaderno de Bitácora](http://wiki.asrob.uc3m.es/index.php/RoboFactory:_Cuaderno_de_Bit%C3%A1cora).
+Sigue el progreso de este grupo (en conjunto) en su [Cuaderno de Bitácora](https://apps-robots.uc3m.es/asrob/wiki/RoboFactory:_Cuaderno_de_Bit%C3%A1cora).

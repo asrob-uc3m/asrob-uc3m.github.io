@@ -106,7 +106,7 @@ more_info:
 
   - title: Gestión de impresoras 3D
     description: En ASROB disponemos de varias impresoras 3D. Entérate aquí sobre cómo usarlas.
-    url: http://wiki.asrob.uc3m.es/printers
+    url: https://apps-robots.uc3m.es/asrob/printers
     picture: /img/printers.png
 
   - title: Miembros
@@ -126,7 +126,7 @@ more_info:
 
   - title: Wiki
     description: Ahora tenemos esta web, pero mucha de la documentación de ASROB sigue estando en la wiki.
-    url: http://wiki.asrob.uc3m.es/index.php/Main_Page
+    url: https://apps-robots.uc3m.es/asrob/wiki
     picture: /img/wiki.png
 
 # other links: links to other useful resources
@@ -134,7 +134,7 @@ other_links:
   - name: Calendario
     url: https://calendar.google.com/calendar/embed?src=e97mebpnhjcq8pbl28plc8l3is%40group.calendar.google.com&ctz=Europe/Madrid
   - name: Contributors
-    url: http://wiki.asrob.uc3m.es/contributors
+    url: https://apps-robots.uc3m.es/asrob/contributors
   - name: Trophies & Awards
     url: /awards.html
   - name: Lista de Correo

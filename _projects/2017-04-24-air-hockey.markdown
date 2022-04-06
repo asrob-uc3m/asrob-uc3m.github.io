@@ -4,7 +4,7 @@ parent: game
 name: AIr-hockey
 subtitle: Mesa de air hockey robótica con inteligencia artificial
 description: Una mesa de air hockey robotizada que juega contra personas.
-url_wiki: http://wiki.asrob.uc3m.es/index.php/AIr_Hockey
+url_wiki: https://apps-robots.uc3m.es/asrob/wiki/AIr_Hockey
 url_github: https://github.com/asrob-uc3m/air-hockey
 picture: /img/air-hockey.jpg
 picture_full: /img/air-hockey-full.jpg

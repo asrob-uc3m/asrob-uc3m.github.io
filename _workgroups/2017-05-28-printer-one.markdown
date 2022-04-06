@@ -13,7 +13,7 @@ picture: /img/printer_one.png
 picture_full: /img/printer_one-full.jpg
 type: workgroup
 url_telegram: https://t.me/joinchat/EbHx60N_oz3y5Cq5Ja2ObQ
-url_wiki: http://wiki.asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story
+url_wiki: https://apps-robots.uc3m.es/asrob/wiki/Printer_One:_A_Clone_Wars_Story
 keys_info: Jorge Ramos, Tomás Criado y Jorge Frutos
 workgroup_id: printer_one
 ---
@@ -45,7 +45,7 @@ Puedes consultar un historial de nuestra misión en nuestro [Cuaderno de Bitáco
 También tenemos un [Repositorio](https://github.com/asrob-uc3m/impresoras-asrob) en GitHub con todo el código que desarrollamos en nuestras reuniones.
 
 ## Enlaces útiles
- * [Gestión de Impresoras 3D disponibles en la asociación](http://wiki.asrob.uc3m.es/printers/)
+ * [Gestión de Impresoras 3D disponibles en la asociación](https://apps-robots.uc3m.es/asrob/printers/)
  * [Repositorio en GitHub](https://github.com/asrob-uc3m/impresoras-asrob)
- * [Antiguo grupo de impresoras 3D](http://wiki.asrob.uc3m.es/index.php/Impresora-3D_Open_Source)
- * [Antigua página de Printer One](http://wiki.asrob.uc3m.es/index.php/Printer_One:_A_Clone_Wars_Story)
+ * [Antiguo grupo de impresoras 3D](https://apps-robots.uc3m.es/asrob/wiki/Impresora-3D_Open_Source)
+ * [Antigua página de Printer One](https://apps-robots.uc3m.es/asrob/wiki/Printer_One:_A_Clone_Wars_Story)
