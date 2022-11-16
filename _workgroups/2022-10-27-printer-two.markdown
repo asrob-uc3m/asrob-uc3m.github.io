@@ -12,7 +12,7 @@ next_meeting_doodle: https://doodle.com/poll/
 picture: /img/printer_one.png
 picture_full: /img/printer_one-full.jpg
 type: workgroup
-url_telegram: https://t.me/joinchat/EbHx60N_oz3y5Cq5Ja2ObQ
+url_telegram: https://t.me/+rVaPSskdZ58xODk0
 url_wiki: https://apps-robots.uc3m.es/asrob/wiki/Printer_One:_A_Clone_Wars_Story
 keys_info: Susana y Carlos
 workgroup_id: printer_two
