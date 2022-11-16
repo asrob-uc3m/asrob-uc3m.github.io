@@ -5,7 +5,7 @@ description: "Impresoras 3D. Olor a pl\xE1stico derretido y laca. <br> Somos un 
   \ de la impresi\xF3n 3D."
 layout: workgroup
 manager: "Susana y Carlos"
-manager_email: 100317057@alumnos.uc3m.com
+manager_email: __________@alumnos.uc3m.com
 name: Printer Two&#58; A New Hope
 next_meeting: Jueves de 15:00 a 17:00 excepto previo aviso por Telegram
 next_meeting_doodle: https://doodle.com/poll/
