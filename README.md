@@ -6,6 +6,18 @@ Web alojada actualmente en http://asrob-uc3m.github.io
 
 Author original de esta plantilla actual: [David Estevez](https://github.com/David-Estevez)
 
+## Cómo servir en localhost
+
+Es útil servir en `localhost` para modificar el sitio web y ver los cambios localmente.
+
+1. Desde la raíz del proyecto, ejecuta el siguiente comando (que es universal para todos los proyectos basados ​​en [jekyll](https://jekyllrb.com/)):
+
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+1. Ahora puedes navegar por el sitio en la ubicación predeterminada: http://127.0.0.1:4000
+
 ## Cómo editar la web
 
 Esta sección contiene la información necesaria para añadir o modificar contenidos
