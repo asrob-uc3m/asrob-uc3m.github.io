@@ -18,6 +18,14 @@ Es útil servir en `localhost` para modificar el sitio web y ver los cambios loc
 
 1. Ahora puedes navegar por el sitio en la ubicación predeterminada: http://127.0.0.1:4000
 
+## Cómo subir cambios a GitHub
+
+Este proyecto se gestiona como cualquier proyecto en [GitHub](https://www.github.com). Puedes usar [Git](https://git-scm.com) o incluso la interfaz web de GitHub, en las que puede encontrar muchos tutoriales en línea. Los siguientes puntos son específicos del mecanismo [GitHub Pages](https://pages.github.com) utilizado y su [configuración actual](https://github.com/corolab/corolab.github.io/settings) :
+
+1. **No subas** la carpeta `_site/` ni el archivo `Gemfile.lock`. Se generan automáticamente de forma local y lo mismo debería suceder en los servidores de las páginas de GitHub.
+
+1. Es seguro `git push` a cualquier rama upstream, pero recuerda que lo que está en `master` es lo que realmente se renderizará como el sitio web.
+
 ## Cómo editar la web
 
 Esta sección contiene la información necesaria para añadir o modificar contenidos
