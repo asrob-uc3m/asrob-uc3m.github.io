@@ -54,10 +54,7 @@ society:
         url: http://twitter.com/asrob_uc3m
       - id: instagram
         name: Instagram
-        url: https://www.instagram.com/asrob_uc3m/
-      - id: facebook
-        name: Facebook
-        url: http://www.facebook.com/pages/Asociacion-de-Robotica-UC3M/170784706272131
+        url: https://www.instagram.com/asrob_uc3m
       - id: linkedin
         name: Linkedin
         url: https://www.linkedin.com/in/asrobuc3m
@@ -67,35 +64,25 @@ society:
 
   management:
       president:
-          name: David Estévez
-          link: http://destevez.me
-          email: david[punto]estevez[punto]fdez[arroba]gmail[punto]com
-      secretary:
-          name: Mar Gómez-Jordana
-          link: https://github.com/madelgj
-          email: madelgj[at]gmail[dot]com
-      treasurer:
-          name: Jorge Frutos (JorFru)
-          link: https://github.com/jorfru
-          email: 100317402[arroba]alumnos[punto]uc3m[punto]es
+          name: Juan G Victores
+          link: https://jgvictores.github.io
+      secretary: 
+          name: Isabel
+          link: https://github.com/Isaa101
+      treasurer: 
+          name: Aina
+          link: https://github.com/aina-c
       printers:
-          name: Jorge Ramos
-          link: https://github.com/GioSunrider
-          email: 100317057[arroba]alumnos[punto]uc3m[punto]com
+          name: elfantasmadeasrob
+          link: https://github.com/elfantasmadeasrob
       mails:
-          name: Diego (DAG00DAG33)
-          link: https://github.com/DAG00DAG33
-          email: diegoantoling[arroba]gmail[punto]com
+          name: Juan G Victores
+          link: https://jgvictores.github.io
       social:
-        - name: Jorge Frutos (JorFru) - Twitter
-          link: https://twitter.com/JorFru_
-          email: 100317402[arroba]alumnos[punto]uc3m[punto]es
-        - name: Nuria Prieto - Instagram
-          link: https://twitter.com/nuria_pp
-          email: Nuria[punto]prieto[punto]pinedo[arroba]uc3m[punto]es
-        - name: Lucía Ruz - Facebook
-          link: https://instagram.com/luruz19
-          email: luciaruzsaez[arroba]gmail[punto]com
+        - name: Guillermo - Twitter
+          link: https://github.com/
+        - name: Bartek - Instagram
+          link: https://github.com/PeterBowman
 
 # More info: these are the links to the main sections of the website
 more_info:
