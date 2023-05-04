@@ -22,29 +22,29 @@
           <div class="col">
             <h2>Junta directiva</h2>
             <div class="list-group">
-              <a href="{{site.society.management.president.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+              <a href="https://github.com/{{site.society.management.president.github}}" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1"><strong>Presidente</strong></h5>
                   <!--<small>3 days ago</small>-->
                 </div>
                 <p class="mb-1">{{site.society.management.president.name}}</p>
-                <small class="text-muted">Email: {{site.society.management.president.email}}</small>
+                <small class="text-muted">@{{site.society.management.president.github}}</small>
               </a>
-              <a href="{{site.society.management.secretary.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+              <a href="https://github.com/{{site.society.management.secretary.github}}" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1"><strong>Secretario</strong></h5>
                   <!--<small>3 days ago</small>-->
                 </div>
                 <p class="mb-1">{{site.society.management.secretary.name}}</p>
-                <small class="text-muted">Email: {{site.society.management.secretary.email}}</small>
+                <small class="text-muted">@{{site.society.management.secretary.github}}</small>
               </a>
-              <a href="{{site.society.management.treasurer.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+              <a href="https://github.com/{{site.society.management.treasurer.github}}" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1"><strong>Tesorero</strong></h5>
                   <!--<small>3 days ago</small>-->
                 </div>
                 <p class="mb-1">{{site.society.management.treasurer.name}}</p>
-                <small class="text-muted">Email: {{site.society.management.treasurer.email}}</small>
+                <small class="text-muted">@{{site.society.management.treasurer.github}}</small>
               </a>
             </div>
           </div>
@@ -54,13 +54,13 @@
           <div class="col">
             <h2>Responsable de Impresoras 3D</h2>
             <div class="list-group">
-              <a href="{{site.society.management.printers.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+              <a href="https://github.com/{{site.society.management.printers.github}}" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1"><strong>Responsable de Impresoras 3D</strong></h5>
                 <!--<small>3 days ago</small>-->
                 </div>
                 <p class="mb-1">{{site.society.management.printers.name}}</p>
-                <small class="text-muted">Email: {{site.society.management.printers.email}}</small>
+                <small class="text-muted">@{{site.society.management.printers.github}}</small>
               </a>
             </div>
           </div>
@@ -71,13 +71,13 @@
             <h2>Responsable(s) de Redes Sociales</h2>
             <div class="list-group">
               {% for member in site.society.management.social %}
-              <a href="{{member.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+              <a href="https://github.com/{{member.github}}" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1"><strong>Responsable de Redes Sociales</strong></h5>
                   <!--<small>3 days ago</small>-->
                 </div>
                 <p class="mb-1">{{member.name}}</p>
-                <small class="text-muted">Email: {{member.email}}</small>
+                <small class="text-muted">@{{member.github}}</small>
               </a>
               {% endfor %}
             </div>
@@ -88,13 +88,13 @@
           <div class="col">
             <h2>Responsable de respuestas a correo</h2>
             <div class="list-group">
-              <a href="{{site.society.management.mails.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+              <a href="https://github.com/{{site.society.management.mails.github}}" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1"><strong>Responsable de respuestas a correo</strong></h5>
                   <!--<small>3 days ago</small>-->
                 </div>
                 <p class="mb-1">{{site.society.management.mails.name}}</p>
-                <small class="text-muted">Email: {{site.society.management.mails.email}}</small>
+                <small class="text-muted">@{{site.society.management.mails.github}}</small>
               </a>
             </div>
           </div>

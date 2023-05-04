@@ -65,24 +65,24 @@ society:
   management:
       president:
           name: Juan G Victores
-          link: https://jgvictores.github.io
+          github: jgvictores
       secretary: 
           name: Isabel
-          link: https://github.com/Isaa101
+          github: Isaa101
       treasurer: 
           name: Aina
-          link: https://github.com/aina-c
+          github: aina-c
       printers:
           name: elfantasmadeasrob
-          link: https://github.com/elfantasmadeasrob
+          github: elfantasmadeasrob
       mails:
           name: Juan G Victores
-          link: https://jgvictores.github.io
+          github: jgvictores
       social:
         - name: Guillermo - Twitter
-          link: https://github.com/
+          github: guillermogarcia251
         - name: Bartek - Instagram
-          link: https://github.com/PeterBowman
+          github: PeterBowman
 
 # More info: these are the links to the main sections of the website
 more_info:
