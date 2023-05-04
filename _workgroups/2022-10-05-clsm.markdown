@@ -4,7 +4,7 @@ workgroup_id: clsm
 name: Cosas con Luces, Sonido y Movimiento
 description: Cosas con Luces, Sonido y Movimiento. A veces con más cosas, de momento percepción. Tal vez algo de machine learning en el futuro cercano. -> Arduino inside.
 url_wiki: https://apps-robots.uc3m.es/asrob/wiki/Robot_Devastation
-url_telegram: https://telegram.me/joinchat/
+url_telegram: https://t.me/joinchat/ADT1EAgigvgsuobGUHMl_w
 url_playlist: https://www.youtube.com/playlist?list=PL0E72403A6C94309E
 picture: /img/clsm.jpg
 picture_full: /img/clsm-full.jpg
