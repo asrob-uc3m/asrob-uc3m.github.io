@@ -86,6 +86,21 @@ society:
 
 # More info: these are the links to the main sections of the website
 more_info:
+  - title: Miembros
+    description: Aquí se encuentra el Listado de Socios con Puesto de Responsabilidad, así como los Antiguos Miembros y el Hall of Fame. Para un listado de socios actuales, revisa las páginas de cada grupo activo.
+    url: /members.html
+    picture: /img/members.png
+
+  - title: Repositorios
+    description: ¡Nuestro código es libre! Puedes echarle un ojo aquí para aprender, contribuir o simplemente curiosear.
+    url: https://github.com/asrob-uc3m
+    picture: /img/repos.png
+
+  - title: Tutoriales
+    description: Recopilación de tutoriales y materiales útiles sobre los programas y herramientas que usamos en ASROB.
+    url: https://asrob-uc3m.gitbooks.io/tutoriales/content
+    picture: /img/tutorials.png
+
   - title: Antiguos grupos de trabajo
     description: Proyectos que se llevaron a cabo en ASROB, pero que actualmente no cuentan con un Grupo de Trabajo Activo.
     url: /old-workgroups.html
@@ -95,21 +110,6 @@ more_info:
     description: En ASROB disponemos de varias impresoras 3D. Entérate aquí sobre cómo usarlas.
     url: https://apps-robots.uc3m.es/asrob/printers
     picture: /img/printers.png
-
-  - title: Miembros
-    description: Aquí se encuentra el Listado de Socios con Puesto de Responsabilidad, así como los Antiguos Miembros y el Hall of Fame. Para un listado de socios actuales, revisa las páginas de cada grupo activo.
-    url: /members.html
-    picture: /img/members.png
-
-  - title: Tutoriales
-    description: Recopilación de tutoriales y materiales útiles sobre los programas y herramientas que usamos en ASROB.
-    url: https://asrob-uc3m.gitbooks.io/tutoriales/content
-    picture: /img/tutorials.png
-
-  - title: Repositorios
-    description: ¡Nuestro código es libre! Puedes echarle un ojo aquí para aprender, contribuir o simplemente curiosear.
-    url: https://github.com/asrob-uc3m
-    picture: /img/repos.png
 
   - title: Wiki
     description: Ahora tenemos esta web, pero mucha de la documentación de ASROB sigue estando en la wiki.
