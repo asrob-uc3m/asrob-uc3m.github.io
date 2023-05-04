@@ -129,17 +129,14 @@ other_links:
 
 # collaborations: people that supports us
 collaborations:
-  - name: RoboticsLab
-    url: http://www.uc3m.es/
-    picture: img/collaborators/uc3m.png
   - name: UC3M
-    url: http://roboticslab.uc3m.es/roboticslab
+    url: https://www.uc3m.es
+    picture: img/collaborators/uc3m.png
+  - name: RoboticsLab
+    url: https://roboticslab.uc3m.es
     picture: img/collaborators/roboticslab.png
-  - name: IEEE
-    url: http://www.ieeespain.org/?q=ramas
-    picture: img/collaborators/ieee.png
   - name: Robocity2030
-    url: http://www.robocity2030.org/branches/
+    url: https://www.robocity2030.org/branches/
     picture: img/collaborators/robocity.png
 
 # Collections
