@@ -105,13 +105,13 @@
             <h2>Responsables de Grupos de Trabajo Activos</h2>
             <div class="list-group">
               {% for workgroup in site.workgroups %}
-              <a href="{{workgroup.manager_link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+              <a href="https://github.com/{{workgroup.manager_github}}" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1"><strong>Responsable grupo {{workgroup.name}}</strong></h5>
                   <!--<small>3 days ago</small>-->
                 </div>
                 <p class="mb-1">{{workgroup.manager}}</p>
-                <small class="text-muted">Email: {{workgroup.manager_email}}</small>
+                <small class="text-muted">@{{workgroup.manager_github}}</small>
               </a>
               {% endfor %}
             </div>

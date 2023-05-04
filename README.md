@@ -134,7 +134,7 @@ para modificar la información del *grupo de trabajo*:
   * `picture_full`: imagen que aparecerá en la página de dicho grupo. Lo ideal es
   que esta imagen sea de **750x500px** para mantener la estética de la web.
   * `manager`: nombre del responsable del *grupo de trabajo activo*.
-  * `manager_email`: email del responsable del *grupo de trabajo activo*.
+  * `manager_github`: github del responsable del *grupo de trabajo activo*.
   * `keys_info`: información acerca de quién tiene qué llaves dentro del *grupo de trabajo activo*.
   * `next_meeting`: información sobre la próxima reunión del *grupo de trabajo
   activo*. Por ejemplo: "Miércoles 4 a las 17h en aula 1.0.B06" o "Todos los

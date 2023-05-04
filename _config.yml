@@ -64,7 +64,7 @@ society:
 
   management:
       president:
-          name: Juan G Victores
+          name: Juan
           github: jgvictores
       secretary: 
           name: Isabel
@@ -76,7 +76,7 @@ society:
           name: elfantasmadeasrob
           github: elfantasmadeasrob
       mails:
-          name: Juan G Victores
+          name: Juan
           github: jgvictores
       social:
         - name: Guillermo - Twitter
