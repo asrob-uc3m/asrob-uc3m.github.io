@@ -2,7 +2,7 @@
 
 Sitio web de la Asociación de Robótica (ASROB) UC3M
 
-Web alojada actualmente en http://asrob-uc3m.github.io
+Web alojada actualmente en https://asrob-uc3m.github.io
 
 Author original de esta plantilla actual: [David Estevez](https://github.com/David-Estevez)
 
