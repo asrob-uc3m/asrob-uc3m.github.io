@@ -12,7 +12,7 @@ manager: Juan y Bartek
 manager_github: jgvictores
 keys_info: Juan
 keys_github: jgvictores
-next_meeting: Jueves de 16:00h a 18:00h en 1.0.B06 (Se ruega que cada participante traiga su portátil o equipo!)
+next_meeting: Miércoles de 11:00h a 13:00h en 1.0.B06 (Se ruega que cada participante traiga su portátil o equipo!)
 layout: workgroup
 active: true
 ---
