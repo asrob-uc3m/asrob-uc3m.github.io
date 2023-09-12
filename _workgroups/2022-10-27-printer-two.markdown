@@ -9,8 +9,8 @@ manager_email: 100428787@alumnos.uc3m.com
 name: Printer Two&#58; A New Hope
 next_meeting: Jueves de 17:00 a 19:00 excepto previo aviso por Telegram
 next_meeting_doodle: https://doodle.com/poll/
-picture: /img/printer_one.png
-picture_full: /img/printer_one-full.jpg
+picture: /img/printer_two.png
+picture_full: /img/printer_two-full.jpg
 type: workgroup
 url_telegram: https://t.me/+rVaPSskdZ58xODk0
 url_wiki: https://apps-robots.uc3m.es/asrob/wiki/Printer_One:_A_Clone_Wars_Story
