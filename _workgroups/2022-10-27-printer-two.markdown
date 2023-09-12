@@ -10,7 +10,7 @@ name: Printer Two&#58; A New Hope
 next_meeting: Jueves de 17:00 a 19:00 excepto previo aviso por Telegram
 next_meeting_doodle: https://doodle.com/poll/
 picture: /img/printer_two.png
-picture_full: /img/printer_two-full.jpg
+picture_full: /img/printer_two-full.png
 type: workgroup
 url_telegram: https://t.me/+rVaPSskdZ58xODk0
 url_wiki: https://apps-robots.uc3m.es/asrob/wiki/Printer_One:_A_Clone_Wars_Story
