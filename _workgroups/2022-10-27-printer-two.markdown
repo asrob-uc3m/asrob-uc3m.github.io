@@ -7,7 +7,7 @@ layout: workgroup
 manager: "Susana y Carlos"
 manager_email: 100428787@alumnos.uc3m.com
 name: Printer Two&#58; A New Hope
-next_meeting: Jueves de 17:00 a 19:00 excepto previo aviso por Telegram
+next_meeting: Jueves de 17:00 a 19:00 en 1.0.B06 (Se ruega que cada participante traiga portátil!)
 next_meeting_doodle: https://doodle.com/poll/
 picture: /img/printer_two.png
 picture_full: /img/printer_two-full.png
