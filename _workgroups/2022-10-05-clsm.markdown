@@ -12,6 +12,7 @@ manager: Juan y Bartek
 manager_github: jgvictores
 keys_info: Juan
 keys_github: jgvictores
+url_telegram: yes
 ---
 
 Cosas con Luces, Sonido y Movimiento. A veces con más cosas, de momento percepción. Tal vez algo de machine learning en el futuro cercano. -> Arduino inside.

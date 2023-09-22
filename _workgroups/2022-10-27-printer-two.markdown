@@ -12,6 +12,7 @@ manager: Susana y Carlos
 manager_github: Susan787
 keys_info: Susana y Carlos
 keys_github: Susan787
+url_telegram: yes
 ---
 
 ## Quiénes somos
