@@ -64,11 +64,11 @@ society:
 
   management:
       president:
-          name: Juan
-          github: jgvictores
-      secretary: 
           name: Isabel
           github: Isaa101
+      secretary:
+          name: Susana
+          github: Susan787
       treasurer: 
           name: Aina
           github: aina-c
