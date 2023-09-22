@@ -91,8 +91,8 @@ more_info:
     url: /members.html
     picture: /img/members.png
 
-  - title: Repositorios
-    description: ¡Nuestro código es libre! Puedes echarle un ojo aquí para aprender, contribuir o simplemente curiosear.
+  - title: GitHub
+    description: ¡Nuestro código es libre y está en repositorios en GitHub! Puedes echarle un ojo aquí para aprender, contribuir o simplemente curiosear.
     url: https://github.com/asrob-uc3m
     picture: /img/repos.png
 
