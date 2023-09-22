@@ -1,23 +1,18 @@
 ---
 active: true
 type: workgroup
-description: Impresoras 3D. Olor a plástico derretido y laca. Somos un grupo de estudiantes de la Universidad Carlos III de Madrid interesados en el mundo de la impresión 3D."
 layout: workgroup
-manager: "Susana y Carlos"
-manager_github: Susan787
+workgroup_id: printer_two
 name: Printer Two&#58; A New Hope
-next_meeting: Jueves de 17:00 a 19:00 en 1.0.B06 (Se ruega que cada participante traiga portátil y/o equipo!)
+description: Impresoras 3D. Olor a plástico derretido y laca. Somos un grupo de estudiantes de la Universidad Carlos III de Madrid interesados en el mundo de la impresión 3D.
 picture: /img/printer_two.png
 picture_full: /img/printer_two-full.png
-type: workgroup
-url_telegram: https://t.me/+rVaPSskdZ58xODk0
-url_wiki: https://apps-robots.uc3m.es/asrob/wiki/Printer_One:_A_Clone_Wars_Story
+next_meeting: Jueves de 17:00 a 19:00 en 1.0.B06 (se ruega que cada participante traiga portátil y/o equipo!)
+manager: Susana y Carlos
+manager_github: Susan787
 keys_info: Susana y Carlos
-workgroup_id: printer_two
+keys_github: Susan787
 ---
-
-<!--- Model for next_meeting string here --->
-<!--- next_meeting: Jueves, 21/12/2017 de 15:00 a 19:00 en 1.0.B06 --->
 
 ## Quiénes somos
 
@@ -43,6 +38,7 @@ Puedes consultar un historial de nuestra misión en nuestro [Cuaderno de Bitáco
 También tenemos un [Repositorio](https://github.com/asrob-uc3m/impresoras-asrob) en GitHub con todo el código que desarrollamos en nuestras reuniones.
 
 ## Enlaces útiles
+
  * [Gestión de Impresoras 3D disponibles en la asociación](https://apps-robots.uc3m.es/asrob/printers/)
  * [Repositorio en GitHub](https://github.com/asrob-uc3m/impresoras-asrob)
  * [Antiguo grupo de impresoras 3D](https://apps-robots.uc3m.es/asrob/wiki/Impresora-3D_Open_Source)
