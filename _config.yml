@@ -86,25 +86,25 @@ society:
 
 # More info: these are the links to the main sections of the website
 more_info:
-  - title: Miembros
-    description: Aquí se encuentra el Listado de Socios con Puesto de Responsabilidad, así como los Antiguos Miembros y el Hall of Fame. Para un listado de socios actuales, revisa las páginas de cada grupo activo.
-    url: /members.html
-    picture: /img/members.png
-
   - title: GitHub
     description: ¡Nuestro código es libre y está en repositorios en GitHub! Puedes echarle un ojo aquí para aprender, contribuir o simplemente curiosear.
     url: https://github.com/asrob-uc3m
     picture: /img/repos.png
+
+  - title: Google Drive
+    description: "Espacio en Google Drive para ficheros más pesados: multimedia, papeleo, inventario, charlas, talleres, concursos..."
+    url: https://drive.google.com/drive/folders/1HhEIG7J6SPRNQM3qDF-5UWGlp9dMVzYO
+    picture: /img/google-drive.png
 
   - title: Tutoriales
     description: Recopilación de tutoriales y materiales útiles sobre los programas y herramientas que usamos en ASROB.
     url: https://asrob.uc3m.es/tutoriales
     picture: /img/tutorials.png
 
-  - title: Antiguos grupos de trabajo
-    description: Proyectos que se llevaron a cabo en ASROB, pero que actualmente no cuentan con un Grupo de Trabajo Activo.
-    url: /old-workgroups.html
-    picture: /img/old_projects.png
+  - title: Miembros
+    description: Aquí se encuentra el Listado de Socios con Puesto de Responsabilidad, así como los Antiguos Miembros y el Hall of Fame. Para un listado de socios actuales, revisa las páginas de cada grupo activo.
+    url: /members.html
+    picture: /img/members.png
 
   - title: Gestión de impresoras 3D
     description: En ASROB disponemos de varias impresoras 3D. Entérate aquí sobre cómo usarlas.
@@ -124,6 +124,8 @@ other_links:
     url: https://apps-robots.uc3m.es/asrob/contributors
   - name: Trophies & Awards
     url: /awards.html
+  - name: Antiguos grupos de trabajo
+    url: /old-workgroups.html
 
 # collaborations: people that supports us
 collaborations:
