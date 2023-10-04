@@ -119,7 +119,7 @@ more_info:
 # other links: links to other useful resources
 other_links:
   - name: Calendario
-    url: https://calendar.google.com/calendar/embed?src=e97mebpnhjcq8pbl28plc8l3is%40group.calendar.google.com&ctz=Europe/Madrid
+    url: https://calendar.google.com/calendar/embed?src=e97mebpnhjcq8pbl28plc8l3is%40group.calendar.google.com&ctz=Europe%2FMadrid&wkst=2
   - name: Contributors
     url: https://apps-robots.uc3m.es/asrob/contributors
   - name: Trophies & Awards
