@@ -48,10 +48,10 @@ society:
         url: https://github.com/asrob-uc3m
       - id: youtube
         name: YouTube
-        url: http://www.youtube.com/user/asrobuc3m/featured
+        url: https://www.youtube.com/user/asrobuc3m
       - id: twitter
         name: Twitter
-        url: http://twitter.com/asrob_uc3m
+        url: https://twitter.com/asrob_uc3m
       - id: instagram
         name: Instagram
         url: https://www.instagram.com/asrob_uc3m
@@ -60,7 +60,7 @@ society:
         url: https://www.linkedin.com/company/asrob-uc3m
       - id: envelope
         name: Email
-        url: mailto:asrob.uc3m@gmail.com
+        url: mailto:asrobuc3m@gmail.com
 
   management:
       president:
