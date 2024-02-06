@@ -7,7 +7,7 @@ name: Printer Two&#58; A New Hope
 description: Impresoras 3D. Olor a plástico derretido y laca. Somos un grupo de estudiantes de la Universidad Carlos III de Madrid interesados en el mundo de la impresión 3D.
 picture: /img/printer_two.png
 picture_full: /img/printer_two-full.png
-next_meeting: Jueves de 17:00 a 19:00 en 1.0.B06 (se ruega que cada participante traiga portátil y/o equipo!)
+next_meeting: Miércoles de 17:00 a 19:00 en 1.0.B06 (se ruega que cada participante traiga portátil y/o equipo!)
 manager: Susana y Carlos
 manager_github: Susan787
 keys_info: Susana y Carlos

@@ -10,7 +10,7 @@ picture_full: /img/clsm-full.jpg
 next_meeting: Miércoles de 11:00h a 13:00h en 1.0.B06 (se ruega que cada participante traiga su portátil y/o equipo!)
 manager: Juan y Bartek
 manager_github: jgvictores
-keys_info: Juan
+keys_info: Juan y Bartek
 keys_github: jgvictores
 url_telegram: yes
 ---
