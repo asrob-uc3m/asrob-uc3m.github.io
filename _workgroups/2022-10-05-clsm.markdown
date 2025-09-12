@@ -7,7 +7,7 @@ name: Cosas con Luces, Sonido y Movimiento
 description: Cosas con Luces, Sonido y Movimiento. A veces con más cosas, de momento percepción. Tal vez algo de machine learning en el futuro cercano. -> Arduino inside.
 picture: /img/clsm.jpg
 picture_full: /img/clsm-full.jpg
-next_meeting: Miércoles de 9:00h a 11:00h en 1.0.B06 (se ruega que cada participante traiga su portátil y/o equipo!)
+next_meeting: Miércoles de 11:00h a 13:00h en 1.0.B06 (se ruega que cada participante traiga su portátil y/o equipo!)
 manager: Juan y Bartek
 manager_github: jgvictores
 keys_info: Juan y Bartek
