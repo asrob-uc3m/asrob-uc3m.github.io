@@ -64,11 +64,14 @@ society:
 
   management:
       president:
-          name: Ana
-          github: anacg1620
+          name: Aina
+          github: aina-c
+      vicepresident:
+          name: Mikki
+          github: Mikkiaa
       secretary:
-          name: Susana
-          github: Susan787
+          name: Marcos
+          github: MarckArthur
       treasurer: 
           name: Juan
           github: jgvictores
