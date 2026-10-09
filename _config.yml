@@ -64,14 +64,14 @@ society:
 
   management:
       president:
-          name: Aina
-          github: aina-c
+          name: Valentina
+          github: keplertronics
       vicepresident:
-          name: Mikki
-          github: Mikkiaa
-      secretary:
           name: Marcos
           github: MarckArthur
+      secretary:
+          name: Mikki
+          github: Mikkiaa
       treasurer: 
           name: Juan
           github: jgvictores
@@ -86,6 +86,8 @@ society:
           github: guillermogarcia251
         - name: Bartek - Instagram
           github: PeterBowman
+        - name: Miguel - Instagram
+          github: Redcraby
         - name: Aina - LinkedIn
           github: aina-c
         - name: Juan - YouTube
